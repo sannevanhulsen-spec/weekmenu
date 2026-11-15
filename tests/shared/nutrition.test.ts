@@ -5,7 +5,7 @@ import type { Ingredient, NevoItem, Recipe } from '../../shared/types';
 const ing = (o: Partial<Ingredient> & Pick<Ingredient, 'id' | 'unit'>): Ingredient =>
   ({ name: o.id, nevoCode: null, pantry: false, aisle: 'x', search: {}, ...o });
 const nevoItem = (code: number, o: Partial<NevoItem>): NevoItem =>
-  ({ code, name: String(code), kcal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, salt: 0, ...o });
+  ({ code, name: String(code), kcal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, na: 0, ...o });
 
 const ingredients = new Map([
   ['kip', ing({ id: 'kip', unit: 'g', nevoCode: 1 })],
@@ -40,5 +40,15 @@ describe('nutritionPerPortion', () => {
   it('includes pantry ingredients', () => {
     const n = nutritionPerPortion(recipe([{ ingredientId: 'olie', amount: 20 }]), ingredients, nevo);
     expect(n.fat).toBeCloseTo(10);
+  });
+});
+
+describe('salt', () => {
+  it('derives salt from NEVO sodium (mg) as Na × 2.5', () => {
+    const ingredients = new Map([['kaas', { id: 'kaas', name: 'kaas', unit: 'g' as const, nevoCode: 9, pantry: false, aisle: 'x', search: {} }]]);
+    const nevo = new Map([[9, { code: 9, name: 'kaas', kcal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, na: 800 }]]);
+    const r = { id: 'r', title: 'r', minutes: 5, tags: [], vegetarian: true, steps: [], lines: [{ ingredientId: 'kaas', amount: 100 }] };
+    // 100 g × 800 mg/100 g = 800 mg Na = 2 g salt for 2 persons → 1 g per portion
+    expect(nutritionPerPortion(r, ingredients, nevo).salt).toBeCloseTo(1);
   });
 });

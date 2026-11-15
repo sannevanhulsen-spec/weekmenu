@@ -4,7 +4,7 @@ import { politeGet } from '../http';
 import { parsePack } from './pack';
 
 export const CATEGORIES = [
-  'aardappelen,-groente-en-fruit', 'vlees,-vis-en-vega', 'zuivel,-boter-en-eieren', 'vleeswaren,-kaas-en-tapas',
+  'aardappelen,-groente-en-fruit', 'brood-en-gebak', 'vlees,-vis-en-vega', 'zuivel,-boter-en-eieren', 'vleeswaren,-kaas-en-tapas',
   'vega-en-plantaardig', 'conserven,-soepen,-sauzen,-olien', 'wereldkeukens,-kruiden,-pasta-en-rijst', 'diepvries',
 ];
 const PAGE = 24;

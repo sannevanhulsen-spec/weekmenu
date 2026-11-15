@@ -1,0 +1,972 @@
+[
+ {
+  "code": 1,
+  "name": "Aardappelen rauw",
+  "kcal": 88,
+  "protein": 2,
+  "carbs": 19,
+  "fat": 0,
+  "fiber": 1.8,
+  "na": 2
+ },
+ {
+  "code": 2,
+  "name": "Aardappelen nieuwe rauw",
+  "kcal": 88,
+  "protein": 2,
+  "carbs": 19,
+  "fat": 0,
+  "fiber": 1.8,
+  "na": 2
+ },
+ {
+  "code": 4,
+  "name": "Pasta witte rauw",
+  "kcal": 356,
+  "protein": 12.3,
+  "carbs": 72,
+  "fat": 1.5,
+  "fiber": 3,
+  "na": 2
+ },
+ {
+  "code": 5,
+  "name": "Rijst witte rauw",
+  "kcal": 352,
+  "protein": 7,
+  "carbs": 78,
+  "fat": 1,
+  "fiber": 1.3,
+  "na": 2
+ },
+ {
+  "code": 7,
+  "name": "Andijvie rauw",
+  "kcal": 16,
+  "protein": 1.5,
+  "carbs": 1,
+  "fat": 0.3,
+  "fiber": 1.7,
+  "na": 29
+ },
+ {
+  "code": 10,
+  "name": "Aubergine rauw",
+  "kcal": 20,
+  "protein": 1,
+  "carbs": 3,
+  "fat": 0,
+  "fiber": 2,
+  "na": 2
+ },
+ {
+  "code": 14,
+  "name": "Kool bloem- rauw",
+  "kcal": 25,
+  "protein": 1.9,
+  "carbs": 3,
+  "fat": 0.2,
+  "fiber": 2.2,
+  "na": 8
+ },
+ {
+  "code": 19,
+  "name": "Champignon rauw",
+  "kcal": 18,
+  "protein": 2.3,
+  "carbs": 0.4,
+  "fat": 0.5,
+  "fiber": 1.5,
+  "na": 5
+ },
+ {
+  "code": 41,
+  "name": "Kool rode rauw",
+  "kcal": 27,
+  "protein": 2,
+  "carbs": 3,
+  "fat": 0,
+  "fiber": 3.6,
+  "na": 9
+ },
+ {
+  "code": 50,
+  "name": "Bonen sperzie- rauw",
+  "kcal": 25,
+  "protein": 2.3,
+  "carbs": 1.8,
+  "fat": 0.2,
+  "fiber": 3.6,
+  "na": 3
+ },
+ {
+  "code": 51,
+  "name": "Spinazie rauw",
+  "kcal": 26,
+  "protein": 3.2,
+  "carbs": 0.9,
+  "fat": 0.6,
+  "fiber": 2,
+  "na": 13
+ },
+ {
+  "code": 53,
+  "name": "Kool spits- rauw",
+  "kcal": 42,
+  "protein": 3,
+  "carbs": 4,
+  "fat": 1,
+  "fiber": 2.5,
+  "na": 10
+ },
+ {
+  "code": 58,
+  "name": "Tauge rauw",
+  "kcal": 25,
+  "protein": 2.2,
+  "carbs": 3.2,
+  "fat": 0.1,
+  "fiber": 1.2,
+  "na": 6
+ },
+ {
+  "code": 63,
+  "name": "Ui rauw",
+  "kcal": 37,
+  "protein": 1.3,
+  "carbs": 6.3,
+  "fat": 0.2,
+  "fiber": 2.7,
+  "na": 4
+ },
+ {
+  "code": 83,
+  "name": "Ei kippen- rauw gem",
+  "kcal": 132,
+  "protein": 12.3,
+  "carbs": 0.2,
+  "fat": 9.1,
+  "fiber": 0,
+  "na": 153
+ },
+ {
+  "code": 120,
+  "name": "Linzen groene en bruine gedroogd",
+  "kcal": 306,
+  "protein": 21,
+  "carbs": 43,
+  "fat": 1.5,
+  "fiber": 18,
+  "na": 5
+ },
+ {
+  "code": 128,
+  "name": "Peterselie vers",
+  "kcal": 37,
+  "protein": 4,
+  "carbs": 1,
+  "fat": 0.8,
+  "fiber": 5,
+  "na": 25
+ },
+ {
+  "code": 141,
+  "name": "Puree tomaten- geconcentreerd blik",
+  "kcal": 87,
+  "protein": 4.5,
+  "carbs": 15.5,
+  "fat": 0,
+  "fiber": 3.7,
+  "na": 269
+ },
+ {
+  "code": 158,
+  "name": "Citroen",
+  "kcal": 36,
+  "protein": 0.8,
+  "carbs": 3,
+  "fat": 0.3,
+  "fiber": 2,
+  "na": 1
+ },
+ {
+  "code": 199,
+  "name": "Noten cashew- ongezouten",
+  "kcal": 615,
+  "protein": 21.2,
+  "carbs": 20.8,
+  "fat": 48.9,
+  "fiber": 3.8,
+  "na": 10
+ },
+ {
+  "code": 220,
+  "name": "Bloem tarwe-",
+  "kcal": 345,
+  "protein": 10.2,
+  "carbs": 71.3,
+  "fat": 1.2,
+  "fiber": 4.2,
+  "na": 1
+ },
+ {
+  "code": 286,
+  "name": "Melk halfvolle",
+  "kcal": 45,
+  "protein": 3.4,
+  "carbs": 4.7,
+  "fat": 1.4,
+  "fiber": 0,
+  "na": 42
+ },
+ {
+  "code": 310,
+  "name": "Boter ongezouten",
+  "kcal": 737,
+  "protein": 0.7,
+  "carbs": 1.1,
+  "fat": 81.2,
+  "fiber": 0,
+  "na": 5
+ },
+ {
+  "code": 324,
+  "name": "Worst rook- gekookt gem",
+  "kcal": 304,
+  "protein": 14.1,
+  "carbs": 2.6,
+  "fat": 26.3,
+  "fiber": 0.5,
+  "na": 868
+ },
+ {
+  "code": 348,
+  "name": "Garnalen Hollandse gekookt",
+  "kcal": 94,
+  "protein": 19.8,
+  "carbs": 0.1,
+  "fat": 1.6,
+  "fiber": 0,
+  "na": 953
+ },
+ {
+  "code": 429,
+  "name": "Bouillonblokje",
+  "kcal": 273,
+  "protein": 8.1,
+  "carbs": 21.2,
+  "fat": 17.2,
+  "fiber": 0.5,
+  "na": 19687
+ },
+ {
+  "code": 443,
+  "name": "Honing",
+  "kcal": 321,
+  "protein": 0.3,
+  "carbs": 80,
+  "fat": 0,
+  "fiber": 0,
+  "na": 10
+ },
+ {
+  "code": 562,
+  "name": "Prei rauw",
+  "kcal": 28,
+  "protein": 1.5,
+  "carbs": 3.5,
+  "fat": 0.2,
+  "fiber": 3,
+  "na": 4
+ },
+ {
+  "code": 601,
+  "name": "Olie olijf-",
+  "kcal": 900,
+  "protein": 0,
+  "carbs": 0,
+  "fat": 100,
+  "fiber": 0,
+  "na": 0
+ },
+ {
+  "code": 639,
+  "name": "Spek ontbijt-",
+  "kcal": 312,
+  "protein": 15.7,
+  "carbs": 0.5,
+  "fat": 27.5,
+  "fiber": 0,
+  "na": 1347
+ },
+ {
+  "code": 671,
+  "name": "Aardappel zoete rauw",
+  "kcal": 91,
+  "protein": 1.2,
+  "carbs": 19.7,
+  "fat": 0.3,
+  "fiber": 2.4,
+  "na": 40
+ },
+ {
+  "code": 682,
+  "name": "Pompoen rauw",
+  "kcal": 14,
+  "protein": 0.7,
+  "carbs": 2,
+  "fat": 0.2,
+  "fiber": 1,
+  "na": 2
+ },
+ {
+  "code": 689,
+  "name": "Avocado",
+  "kcal": 186,
+  "protein": 2,
+  "carbs": 1.8,
+  "fat": 18.4,
+  "fiber": 3.1,
+  "na": 5
+ },
+ {
+  "code": 691,
+  "name": "Limoen",
+  "kcal": 41,
+  "protein": 0.7,
+  "carbs": 7.7,
+  "fat": 0.2,
+  "fiber": 2.8,
+  "na": 2
+ },
+ {
+  "code": 718,
+  "name": "Kaas Parmezaanse",
+  "kcal": 404,
+  "protein": 40,
+  "carbs": 0,
+  "fat": 27,
+  "fiber": 0,
+  "na": 1000
+ },
+ {
+  "code": 820,
+  "name": "Kabeljauw rauw",
+  "kcal": 75,
+  "protein": 17.5,
+  "carbs": 0,
+  "fat": 0.6,
+  "fiber": 0,
+  "na": 91
+ },
+ {
+  "code": 823,
+  "name": "Peper zwarte/witte",
+  "kcal": 332,
+  "protein": 11,
+  "carbs": 52,
+  "fat": 3,
+  "fiber": 26.4,
+  "na": 44
+ },
+ {
+  "code": 824,
+  "name": "Mosterd",
+  "kcal": 129,
+  "protein": 6.7,
+  "carbs": 6.6,
+  "fat": 7.8,
+  "fiber": 3,
+  "na": 1424
+ },
+ {
+  "code": 827,
+  "name": "Komijnzaad gedroogd",
+  "kcal": 427,
+  "protein": 18,
+  "carbs": 34,
+  "fat": 22,
+  "fiber": 10.5,
+  "na": 168
+ },
+ {
+  "code": 830,
+  "name": "Knoflook rauw",
+  "kcal": 158,
+  "protein": 6.4,
+  "carbs": 31,
+  "fat": 0.5,
+  "fiber": 2.1,
+  "na": 17
+ },
+ {
+  "code": 832,
+  "name": "Gemberwortel",
+  "kcal": 81,
+  "protein": 1.8,
+  "carbs": 15.7,
+  "fat": 0.8,
+  "fiber": 2,
+  "na": 13
+ },
+ {
+  "code": 875,
+  "name": "Appel m schil gem",
+  "kcal": 56,
+  "protein": 0.3,
+  "carbs": 12,
+  "fat": 0.2,
+  "fiber": 2,
+  "na": 1
+ },
+ {
+  "code": 884,
+  "name": "Paprika rode rauw",
+  "kcal": 25,
+  "protein": 0.8,
+  "carbs": 4.3,
+  "fat": 0.1,
+  "fiber": 1.8,
+  "na": 1
+ },
+ {
+  "code": 921,
+  "name": "Broccoli rauw",
+  "kcal": 27,
+  "protein": 2.9,
+  "carbs": 0.7,
+  "fat": 0.7,
+  "fiber": 3.1,
+  "na": 5
+ },
+ {
+  "code": 922,
+  "name": "Courgette rauw",
+  "kcal": 18,
+  "protein": 1.3,
+  "carbs": 2.3,
+  "fat": 0.2,
+  "fiber": 0.9,
+  "na": 1
+ },
+ {
+  "code": 953,
+  "name": "Doperwten diepvries gekookt",
+  "kcal": 92,
+  "protein": 6,
+  "carbs": 14.8,
+  "fat": 0,
+  "fiber": 4.5,
+  "na": 6
+ },
+ {
+  "code": 959,
+  "name": "Kool boeren- rauw",
+  "kcal": 33,
+  "protein": 3,
+  "carbs": 1.6,
+  "fat": 0.6,
+  "fiber": 4.7,
+  "na": 28
+ },
+ {
+  "code": 1213,
+  "name": "Ketjap zout",
+  "kcal": 211,
+  "protein": 2.8,
+  "carbs": 50,
+  "fat": 0,
+  "fiber": 0,
+  "na": 5440
+ },
+ {
+  "code": 1215,
+  "name": "Ketjap zoet",
+  "kcal": 234,
+  "protein": 3.5,
+  "carbs": 55,
+  "fat": 0,
+  "fiber": 0,
+  "na": 2841
+ },
+ {
+  "code": 1220,
+  "name": "Basilicum gedroogd",
+  "kcal": 244,
+  "protein": 23,
+  "carbs": 10.1,
+  "fat": 4.1,
+  "fiber": 37.7,
+  "na": 76
+ },
+ {
+  "code": 1229,
+  "name": "Paprikapoeder",
+  "kcal": 359,
+  "protein": 15,
+  "carbs": 35,
+  "fat": 13,
+  "fiber": 20.9,
+  "na": 34
+ },
+ {
+  "code": 1232,
+  "name": "Sambal oelek",
+  "kcal": 36,
+  "protein": 1.6,
+  "carbs": 4.9,
+  "fat": 0.7,
+  "fiber": 1.9,
+  "na": 4560
+ },
+ {
+  "code": 1305,
+  "name": "Kip z vel rauw",
+  "kcal": 139,
+  "protein": 20.5,
+  "carbs": 0,
+  "fat": 6.3,
+  "fiber": 0,
+  "na": 92
+ },
+ {
+  "code": 1399,
+  "name": "Sla ijsberg- rauw",
+  "kcal": 14,
+  "protein": 1,
+  "carbs": 1.4,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "na": 17
+ },
+ {
+  "code": 1400,
+  "name": "Runderbiefstuk rauw",
+  "kcal": 108,
+  "protein": 22.9,
+  "carbs": 0,
+  "fat": 1.8,
+  "fiber": 0,
+  "na": 50
+ },
+ {
+  "code": 1405,
+  "name": "Gehakt runder- rauw",
+  "kcal": 225,
+  "protein": 18.9,
+  "carbs": 0.2,
+  "fat": 16.5,
+  "fiber": 0.3,
+  "na": 110
+ },
+ {
+  "code": 1422,
+  "name": "Varkenshaas rauw",
+  "kcal": 105,
+  "protein": 22.4,
+  "carbs": 0,
+  "fat": 1.7,
+  "fiber": 0,
+  "na": 91
+ },
+ {
+  "code": 1434,
+  "name": "Gehakt hoh rauw",
+  "kcal": 233,
+  "protein": 19.2,
+  "carbs": 0.3,
+  "fat": 17.2,
+  "fiber": 0.3,
+  "na": 177
+ },
+ {
+  "code": 1587,
+  "name": "Zalm kweek- rauw",
+  "kcal": 179,
+  "protein": 20,
+  "carbs": 0,
+  "fat": 11,
+  "fiber": 0,
+  "na": 46
+ },
+ {
+  "code": 1590,
+  "name": "Tonijn in water blik",
+  "kcal": 109,
+  "protein": 24.9,
+  "carbs": 0,
+  "fat": 1,
+  "fiber": 0,
+  "na": 272
+ },
+ {
+  "code": 1634,
+  "name": "Kipfilet rauw",
+  "kcal": 109,
+  "protein": 23.3,
+  "carbs": 0,
+  "fat": 1.8,
+  "fiber": 0,
+  "na": 53
+ },
+ {
+  "code": 1650,
+  "name": "Kaas geiten- verse",
+  "kcal": 207,
+  "protein": 13.4,
+  "carbs": 1,
+  "fat": 16.6,
+  "fiber": 0,
+  "na": 399
+ },
+ {
+  "code": 1808,
+  "name": "Creme fraiche",
+  "kcal": 293,
+  "protein": 2.6,
+  "carbs": 2.8,
+  "fat": 30,
+  "fiber": 0,
+  "na": 37
+ },
+ {
+  "code": 1889,
+  "name": "Couscous rauw",
+  "kcal": 363,
+  "protein": 12,
+  "carbs": 72.1,
+  "fat": 2.1,
+  "fiber": 3.7,
+  "na": 4
+ },
+ {
+  "code": 1955,
+  "name": "Kaas Mozzarella gemaakt v koemelk",
+  "kcal": 253,
+  "protein": 18.7,
+  "carbs": 0.7,
+  "fat": 19.5,
+  "fiber": 0,
+  "na": 480
+ },
+ {
+  "code": 2047,
+  "name": "Gehakt fijn- vegetarisch obv soja onbereid",
+  "kcal": 148,
+  "protein": 20,
+  "carbs": 5.8,
+  "fat": 3,
+  "fiber": 8.9,
+  "na": 520
+ },
+ {
+  "code": 2177,
+  "name": "Basilicum vers",
+  "kcal": 48,
+  "protein": 3.1,
+  "carbs": 5.1,
+  "fat": 0.8,
+  "fiber": 3.9,
+  "na": 9
+ },
+ {
+  "code": 2178,
+  "name": "Pesto groene",
+  "kcal": 444,
+  "protein": 9,
+  "carbs": 4.4,
+  "fat": 42.8,
+  "fiber": 2.6,
+  "na": 880
+ },
+ {
+  "code": 2275,
+  "name": "Room kook-",
+  "kcal": 212,
+  "protein": 2.4,
+  "carbs": 5,
+  "fat": 20.2,
+  "fiber": 0.1,
+  "na": 50
+ },
+ {
+  "code": 2290,
+  "name": "Kokosmelk",
+  "kcal": 173,
+  "protein": 1.4,
+  "carbs": 2.5,
+  "fat": 17.4,
+  "fiber": 0.5,
+  "na": 15
+ },
+ {
+  "code": 2293,
+  "name": "Tomaat in blik",
+  "kcal": 24,
+  "protein": 1.1,
+  "carbs": 3.7,
+  "fat": 0.4,
+  "fiber": 0.7,
+  "na": 20
+ },
+ {
+  "code": 2359,
+  "name": "Wrap/tortilla obv tarwe naturel",
+  "kcal": 298,
+  "protein": 8.5,
+  "carbs": 50.8,
+  "fat": 5.5,
+  "fiber": 4.1,
+  "na": 460
+ },
+ {
+  "code": 2473,
+  "name": "Pasta kruiden-/boemboe",
+  "kcal": 306,
+  "protein": 4,
+  "carbs": 25.6,
+  "fat": 20.4,
+  "fiber": 1.7,
+  "na": 1721
+ },
+ {
+  "code": 2498,
+  "name": "Tomaat gezeefd pak",
+  "kcal": 39,
+  "protein": 1.8,
+  "carbs": 6.3,
+  "fat": 0.3,
+  "fiber": 2,
+  "na": 110
+ },
+ {
+  "code": 2503,
+  "name": "Yoghurt Griekse volle",
+  "kcal": 122,
+  "protein": 3.8,
+  "carbs": 3.8,
+  "fat": 10,
+  "fiber": 0,
+  "na": 53
+ },
+ {
+  "code": 2524,
+  "name": "Peper Spaanse rauw",
+  "kcal": 30,
+  "protein": 1.8,
+  "carbs": 4.2,
+  "fat": 0.3,
+  "fiber": 1.8,
+  "na": 12
+ },
+ {
+  "code": 2615,
+  "name": "Azijn",
+  "kcal": 22,
+  "protein": 0.4,
+  "carbs": 0.6,
+  "fat": 0,
+  "fiber": 0,
+  "na": 5
+ },
+ {
+  "code": 2728,
+  "name": "Wortel winterpeen rauw",
+  "kcal": 34,
+  "protein": 0.6,
+  "carbs": 5.7,
+  "fat": 0.3,
+  "fiber": 3.3,
+  "na": 36
+ },
+ {
+  "code": 2731,
+  "name": "Tomaat kers- rauw",
+  "kcal": 30,
+  "protein": 0.9,
+  "carbs": 3.9,
+  "fat": 0.8,
+  "fiber": 1.9,
+  "na": 3
+ },
+ {
+  "code": 2734,
+  "name": "Tomaat rauw gem",
+  "kcal": 25,
+  "protein": 0.8,
+  "carbs": 3.4,
+  "fat": 0.6,
+  "fiber": 1.6,
+  "na": 2
+ },
+ {
+  "code": 2736,
+  "name": "Sla rucola rauw",
+  "kcal": 22,
+  "protein": 3.6,
+  "carbs": 0,
+  "fat": 0.4,
+  "fiber": 1.9,
+  "na": 33
+ },
+ {
+  "code": 2739,
+  "name": "Komkommer m schil rauw",
+  "kcal": 13,
+  "protein": 0.7,
+  "carbs": 1.3,
+  "fat": 0.4,
+  "fiber": 0.6,
+  "na": 2
+ },
+ {
+  "code": 2758,
+  "name": "Kaas Goudse 48+ belegen",
+  "kcal": 377,
+  "protein": 22.5,
+  "carbs": 0,
+  "fat": 30.8,
+  "fiber": 0,
+  "na": 718
+ },
+ {
+  "code": 2790,
+  "name": "Tarwebrood wit pita",
+  "kcal": 245,
+  "protein": 8.6,
+  "carbs": 50.1,
+  "fat": 0.7,
+  "fiber": 2.1,
+  "na": 414
+ },
+ {
+  "code": 2793,
+  "name": "Tarwestokbrood wit",
+  "kcal": 270,
+  "protein": 9.7,
+  "carbs": 53.6,
+  "fat": 1.2,
+  "fiber": 2.8,
+  "na": 437
+ },
+ {
+  "code": 2900,
+  "name": "Mais blik/glas",
+  "kcal": 91,
+  "protein": 2.9,
+  "carbs": 14.8,
+  "fat": 1.5,
+  "fiber": 3.2,
+  "na": 133
+ },
+ {
+  "code": 2953,
+  "name": "Zout zee-",
+  "kcal": 0,
+  "protein": 0,
+  "carbs": 0,
+  "fat": 0,
+  "fiber": 0,
+  "na": 33800
+ },
+ {
+  "code": 3153,
+  "name": "Quinoa rauw",
+  "kcal": 354,
+  "protein": 14.1,
+  "carbs": 57.2,
+  "fat": 6.1,
+  "fiber": 7,
+  "na": 5
+ },
+ {
+  "code": 3185,
+  "name": "Erwten kikker- blik/glas",
+  "kcal": 140,
+  "protein": 7.9,
+  "carbs": 17.9,
+  "fat": 2.5,
+  "fiber": 7.2,
+  "na": 110
+ },
+ {
+  "code": 3362,
+  "name": "Kaas Feta",
+  "kcal": 274,
+  "protein": 16.6,
+  "carbs": 0.6,
+  "fat": 22.8,
+  "fiber": 0,
+  "na": 988
+ },
+ {
+  "code": 5173,
+  "name": "Bonen kidney- rode gekookt",
+  "kcal": 115,
+  "protein": 8.3,
+  "carbs": 13.9,
+  "fat": 0.7,
+  "fiber": 9.8,
+  "na": 2
+ },
+ {
+  "code": 5176,
+  "name": "Bonen zwarte blik/glas",
+  "kcal": 113,
+  "protein": 7.9,
+  "carbs": 14.1,
+  "fat": 1,
+  "fiber": 8,
+  "na": 95
+ },
+ {
+  "code": 5415,
+  "name": "Kruiden tuin- vers gem",
+  "kcal": 43,
+  "protein": 3.3,
+  "carbs": 4.1,
+  "fat": 0.7,
+  "fiber": 3.2,
+  "na": 24
+ },
+ {
+  "code": 5418,
+  "name": "Gnocchi onbereid",
+  "kcal": 174,
+  "protein": 3.9,
+  "carbs": 37.9,
+  "fat": 0.3,
+  "fiber": 1.9,
+  "na": 353
+ },
+ {
+  "code": 5459,
+  "name": "Ui rode rauw",
+  "kcal": 37,
+  "protein": 1.3,
+  "carbs": 5.6,
+  "fat": 0.4,
+  "fiber": 2.5,
+  "na": 3
+ },
+ {
+  "code": 5519,
+  "name": "Tofu onbereid",
+  "kcal": 119,
+  "protein": 12.4,
+  "carbs": 1.5,
+  "fat": 6.6,
+  "fiber": 2,
+  "na": 15
+ },
+ {
+  "code": 5573,
+  "name": "Tempeh onbereid",
+  "kcal": 128,
+  "protein": 17.6,
+  "carbs": 0.4,
+  "fat": 4.7,
+  "fiber": 6.2,
+  "na": 39
+ }
+]

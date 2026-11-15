@@ -1,0 +1,2404 @@
+[
+ {
+  "id": "kip-ketjap",
+  "title": "Kip ketjap met rijst en broccoli",
+  "minutes": 25,
+  "tags": [
+   "wok",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst.",
+   "Snijd de kip in blokjes en bak 6 min in olie met knoflook en geraspte gember.",
+   "Kook of stoom de broccoli 4 min.",
+   "Blus de kip af met ketjap en laat 2 min inkoken. Serveer met rijst en broccoli."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipfilet",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ketjap",
+    "amount": 40
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "gember",
+    "amount": 10
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "broccoli",
+    "amount": 400
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "bolognese",
+  "title": "Spaghetti bolognese",
+  "minutes": 35,
+  "tags": [
+   "pasta",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Fruit ui, knoflook en geraspte wortel in olie.",
+   "Bak het gehakt rul mee.",
+   "Voeg tomatenpuree, passata en kruiden toe en laat 20 min zacht pruttelen.",
+   "Kook de spaghetti en serveer met de saus en Parmezaan."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rundergehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "wortel",
+    "amount": 150
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 500
+   },
+   {
+    "ingredientId": "tomatenpuree",
+    "amount": 70
+   },
+   {
+    "ingredientId": "spaghetti",
+    "amount": 200
+   },
+   {
+    "ingredientId": "italiaanse-kruiden",
+    "amount": 3
+   },
+   {
+    "ingredientId": "parmezaan",
+    "amount": 30
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "pesto-kip",
+  "title": "Penne met pesto, kip en cherrytomaatjes",
+  "minutes": 20,
+  "tags": [
+   "pasta",
+   "snel"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de penne.",
+   "Bak de kipreepjes in olie gaar.",
+   "Halveer de tomaatjes en schep met pesto, kip en penne door elkaar.",
+   "Serveer met rucola en Parmezaan."
+  ],
+  "lines": [
+   {
+    "ingredientId": "penne",
+    "amount": 200
+   },
+   {
+    "ingredientId": "kipfilet",
+    "amount": 300
+   },
+   {
+    "ingredientId": "pesto",
+    "amount": 90
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 250
+   },
+   {
+    "ingredientId": "rucola",
+    "amount": 50
+   },
+   {
+    "ingredientId": "parmezaan",
+    "amount": 20
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "kikkererwtencurry",
+  "title": "Groentecurry met kikkererwten",
+  "minutes": 30,
+  "tags": [
+   "curry"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de rijst.",
+   "Fruit ui, knoflook en currypasta in olie.",
+   "Voeg paprikareepjes, kikkererwten en kokosmelk toe en laat 10 min pruttelen.",
+   "Roer de spinazie erdoor tot die geslonken is."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kikkererwten",
+    "amount": 400
+   },
+   {
+    "ingredientId": "kokosmelk",
+    "amount": 250
+   },
+   {
+    "ingredientId": "currypasta",
+    "amount": 50
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "spinazie",
+    "amount": 200
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "shakshuka",
+  "title": "Shakshuka met feta",
+  "minutes": 25,
+  "tags": [
+   "ei",
+   "snel"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Fruit ui, paprika en knoflook in olie met komijn en paprikapoeder.",
+   "Voeg de tomatenblokjes toe en laat 10 min inkoken.",
+   "Maak 4 kuiltjes, breek er de eieren in en laat afgedekt 6 min garen.",
+   "Verkruimel de feta erover en serveer met stokbrood."
+  ],
+  "lines": [
+   {
+    "ingredientId": "ei",
+    "amount": 4
+   },
+   {
+    "ingredientId": "tomatenblokjes",
+    "amount": 400
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 2
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 2
+   },
+   {
+    "ingredientId": "paprikapoeder",
+    "amount": 3
+   },
+   {
+    "ingredientId": "feta",
+    "amount": 75
+   },
+   {
+    "ingredientId": "stokbrood",
+    "amount": 1
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "zalm-oven",
+  "title": "Zalm uit de oven met krieltjes en sperziebonen",
+  "minutes": 35,
+  "tags": [
+   "vis",
+   "oven"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Rooster de krieltjes met olie 30 min.",
+   "Leg de zalm de laatste 15 min erbij met knoflook en citroenschijfjes.",
+   "Kook de sperziebonen 6 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "zalm",
+    "amount": 250
+   },
+   {
+    "ingredientId": "krieltjes",
+    "amount": 500
+   },
+   {
+    "ingredientId": "sperziebonen",
+    "amount": 300
+   },
+   {
+    "ingredientId": "citroen",
+    "amount": 1
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 20
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "nasi",
+  "title": "Nasi goreng met gebakken ei",
+  "minutes": 30,
+  "tags": [
+   "wok"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst en laat afkoelen.",
+   "Bak kipblokjes met ui, knoflook en sambal.",
+   "Voeg gesneden spitskool en prei toe en roerbak 4 min.",
+   "Schep de rijst en ketjap erdoor. Bak de eieren en leg ze erop."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "kipfilet",
+    "amount": 250
+   },
+   {
+    "ingredientId": "ei",
+    "amount": 2
+   },
+   {
+    "ingredientId": "ketjap",
+    "amount": 30
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "spitskool",
+    "amount": 250
+   },
+   {
+    "ingredientId": "prei",
+    "amount": 1
+   },
+   {
+    "ingredientId": "sambal",
+    "amount": 5
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "hutspot",
+  "title": "Hutspot met rookworst",
+  "minutes": 35,
+  "tags": [
+   "stamppot",
+   "hollands"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Schil de aardappelen en snijd met wortel en ui in stukken.",
+   "Kook alles samen 20 min gaar en giet af.",
+   "Verwarm de rookworst 10 min in heet water.",
+   "Stamp met boter en warme melk en serveer met de rookworst."
+  ],
+  "lines": [
+   {
+    "ingredientId": "aardappelen",
+    "amount": 600
+   },
+   {
+    "ingredientId": "wortel",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 2
+   },
+   {
+    "ingredientId": "rookworst",
+    "amount": 275
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 20
+   },
+   {
+    "ingredientId": "melk",
+    "amount": 100
+   }
+  ]
+ },
+ {
+  "id": "boerenkool",
+  "title": "Boerenkoolstamppot met rookworst",
+  "minutes": 35,
+  "tags": [
+   "stamppot",
+   "hollands"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de aardappelen 20 min met de boerenkool erop.",
+   "Verwarm de rookworst 10 min in heet water.",
+   "Giet af en stamp met melk, boter en mosterd.",
+   "Serveer met plakjes rookworst."
+  ],
+  "lines": [
+   {
+    "ingredientId": "aardappelen",
+    "amount": 700
+   },
+   {
+    "ingredientId": "boerenkool",
+    "amount": 400
+   },
+   {
+    "ingredientId": "rookworst",
+    "amount": 275
+   },
+   {
+    "ingredientId": "melk",
+    "amount": 100
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 20
+   },
+   {
+    "ingredientId": "mosterd",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "andijvie",
+  "title": "Andijviestamppot met spekjes en kaas",
+  "minutes": 30,
+  "tags": [
+   "stamppot",
+   "hollands"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de aardappelen 20 min gaar.",
+   "Bak de spekreepjes krokant.",
+   "Stamp de aardappelen met warme melk.",
+   "Schep de rauwe, fijngesneden andijvie, spek en kaas erdoor."
+  ],
+  "lines": [
+   {
+    "ingredientId": "aardappelen",
+    "amount": 700
+   },
+   {
+    "ingredientId": "andijvie",
+    "amount": 400
+   },
+   {
+    "ingredientId": "spekreepjes",
+    "amount": 150
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 50
+   },
+   {
+    "ingredientId": "melk",
+    "amount": 100
+   }
+  ]
+ },
+ {
+  "id": "wraps-kip",
+  "title": "Wraps met kip en guacamole",
+  "minutes": 20,
+  "tags": [
+   "snel",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Bak de kipreepjes met de taco-kruiden in olie gaar.",
+   "Prak de avocado met limoensap en zout.",
+   "Snijd tomaat, ui en sla.",
+   "Verwarm de wraps en vul ze met alles."
+  ],
+  "lines": [
+   {
+    "ingredientId": "wraps",
+    "amount": 4
+   },
+   {
+    "ingredientId": "kipfilet",
+    "amount": 300
+   },
+   {
+    "ingredientId": "avocado",
+    "amount": 1
+   },
+   {
+    "ingredientId": "limoen",
+    "amount": 1
+   },
+   {
+    "ingredientId": "tomaat",
+    "amount": 2
+   },
+   {
+    "ingredientId": "sla",
+    "amount": 75
+   },
+   {
+    "ingredientId": "rode-ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "taco-kruiden",
+    "amount": 15
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "chili-sin",
+  "title": "Chili sin carne",
+  "minutes": 35,
+  "tags": [
+   "bonen"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de rijst.",
+   "Fruit ui, knoflook en paprika met komijn en paprikapoeder.",
+   "Voeg tomaat, bonen en maïs toe en laat 20 min pruttelen.",
+   "Serveer met de rijst."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kidneybonen",
+    "amount": 400
+   },
+   {
+    "ingredientId": "zwarte-bonen",
+    "amount": 400
+   },
+   {
+    "ingredientId": "mais",
+    "amount": 150
+   },
+   {
+    "ingredientId": "tomatenblokjes",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 3
+   },
+   {
+    "ingredientId": "paprikapoeder",
+    "amount": 3
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "chili-con",
+  "title": "Chili con carne",
+  "minutes": 40,
+  "tags": [
+   "bonen",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst.",
+   "Bak het gehakt rul met ui, knoflook en komijn.",
+   "Voeg paprika, tomaat, bonen en maïs toe en laat 25 min zacht pruttelen.",
+   "Serveer met de rijst."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rundergehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "kidneybonen",
+    "amount": 400
+   },
+   {
+    "ingredientId": "mais",
+    "amount": 150
+   },
+   {
+    "ingredientId": "tomatenblokjes",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 3
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "lasagne",
+  "title": "Lasagne met courgette",
+  "minutes": 60,
+  "tags": [
+   "oven",
+   "pasta"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Bak het gehakt met ui, knoflook en courgetteblokjes. Voeg passata en kruiden toe.",
+   "Bouw lagen van saus, lasagnebladen en crème fraîche in een ovenschaal.",
+   "Bestrooi met kaas en bak 35 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "lasagne",
+    "amount": 150
+   },
+   {
+    "ingredientId": "gehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 500
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "courgette",
+    "amount": 1
+   },
+   {
+    "ingredientId": "creme-fraiche",
+    "amount": 125
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 75
+   },
+   {
+    "ingredientId": "italiaanse-kruiden",
+    "amount": 3
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "pasta-geitenkaas",
+  "title": "Pasta met spinazie en geitenkaas",
+  "minutes": 20,
+  "tags": [
+   "pasta",
+   "snel"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de penne.",
+   "Fruit de knoflook en laat de spinazie erin slinken.",
+   "Voeg kookroom en de helft van de geitenkaas toe.",
+   "Schep de pasta erdoor, rasp er citroen over en verkruimel de rest van de kaas erover."
+  ],
+  "lines": [
+   {
+    "ingredientId": "penne",
+    "amount": 200
+   },
+   {
+    "ingredientId": "spinazie",
+    "amount": 300
+   },
+   {
+    "ingredientId": "geitenkaas",
+    "amount": 100
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 125
+   },
+   {
+    "ingredientId": "citroen",
+    "amount": 0.5
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "thaise-curry",
+  "title": "Thaise rode curry met kip",
+  "minutes": 30,
+  "tags": [
+   "curry",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst.",
+   "Bak de currypasta kort in olie en bak de kipdij erin aan.",
+   "Voeg kokosmelk, paprika en sperziebonen toe en laat 12 min pruttelen.",
+   "Maak af met limoensap en koriander."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipdij",
+    "amount": 350
+   },
+   {
+    "ingredientId": "kokosmelk",
+    "amount": 400
+   },
+   {
+    "ingredientId": "currypasta",
+    "amount": 50
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "sperziebonen",
+    "amount": 200
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "limoen",
+    "amount": 1
+   },
+   {
+    "ingredientId": "koriander",
+    "amount": 10
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "pompoensoep",
+  "title": "Pompoensoep met stokbrood",
+  "minutes": 35,
+  "tags": [
+   "soep"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Fruit ui en knoflook in olie.",
+   "Voeg pompoenblokjes, 1 liter water en het bouillonblokje toe en kook 20 min.",
+   "Pureer glad en roer de kookroom erdoor.",
+   "Serveer met warm stokbrood."
+  ],
+  "lines": [
+   {
+    "ingredientId": "pompoen",
+    "amount": 800
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "bouillon",
+    "amount": 1
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 100
+   },
+   {
+    "ingredientId": "stokbrood",
+    "amount": 1
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "tomatensoep-balletjes",
+  "title": "Tomatensoep met balletjes",
+  "minutes": 30,
+  "tags": [
+   "soep"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Fruit de ui in olie.",
+   "Voeg passata, tomatenblokjes, 500 ml water, het bouillonblokje en de kruiden toe.",
+   "Draai kleine balletjes van het gehakt en laat ze 10 min in de soep garen.",
+   "Serveer met stokbrood."
+  ],
+  "lines": [
+   {
+    "ingredientId": "passata",
+    "amount": 500
+   },
+   {
+    "ingredientId": "tomatenblokjes",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "rundergehakt",
+    "amount": 200
+   },
+   {
+    "ingredientId": "bouillon",
+    "amount": 1
+   },
+   {
+    "ingredientId": "stokbrood",
+    "amount": 1
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   },
+   {
+    "ingredientId": "italiaanse-kruiden",
+    "amount": 2
+   }
+  ]
+ },
+ {
+  "id": "gnocchi-tomaat",
+  "title": "Gnocchi met tomaat en mozzarella",
+  "minutes": 20,
+  "tags": [
+   "snel"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Bak de gnocchi 6 min goudbruin in olie.",
+   "Voeg knoflook, gehalveerde tomaatjes en passata toe en verwarm 5 min.",
+   "Scheur de mozzarella erover en laat smelten.",
+   "Maak af met basilicum."
+  ],
+  "lines": [
+   {
+    "ingredientId": "gnocchi",
+    "amount": 500
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 250
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 250
+   },
+   {
+    "ingredientId": "mozzarella",
+    "amount": 125
+   },
+   {
+    "ingredientId": "basilicum",
+    "amount": 10
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "couscous-groenten",
+  "title": "Couscous met geroosterde groenten en feta",
+  "minutes": 35,
+  "tags": [
+   "oven"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Verwarm de oven op 220 °C.",
+   "Rooster courgette, paprika, ui en kikkererwten met olie en komijn 25 min.",
+   "Wel de couscous met heet water.",
+   "Schep alles door elkaar met citroensap en verkruimelde feta."
+  ],
+  "lines": [
+   {
+    "ingredientId": "couscous",
+    "amount": 150
+   },
+   {
+    "ingredientId": "courgette",
+    "amount": 1
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 2
+   },
+   {
+    "ingredientId": "rode-ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "feta",
+    "amount": 150
+   },
+   {
+    "ingredientId": "kikkererwten",
+    "amount": 200
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 25
+   },
+   {
+    "ingredientId": "citroen",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "kabeljauw-mosterd",
+  "title": "Kabeljauw met mosterdsaus en spinazie",
+  "minutes": 30,
+  "tags": [
+   "vis"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de aardappelen 20 min.",
+   "Bak de kabeljauw 3 min per kant in boter.",
+   "Laat de spinazie slinken in een pan.",
+   "Verwarm kookroom met mosterd tot een saus."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kabeljauw",
+    "amount": 300
+   },
+   {
+    "ingredientId": "aardappelen",
+    "amount": 600
+   },
+   {
+    "ingredientId": "spinazie",
+    "amount": 400
+   },
+   {
+    "ingredientId": "mosterd",
+    "amount": 15
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 125
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "biefstuk",
+  "title": "Biefstuk met gebakken krieltjes en salade",
+  "minutes": 30,
+  "tags": [
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de krieltjes 10 min voor en bak ze daarna goudbruin.",
+   "Bak de biefstuk in hete boter 2-3 min per kant en laat rusten.",
+   "Maak een salade van sla, tomaat en komkommer."
+  ],
+  "lines": [
+   {
+    "ingredientId": "biefstuk",
+    "amount": 300
+   },
+   {
+    "ingredientId": "krieltjes",
+    "amount": 500
+   },
+   {
+    "ingredientId": "sla",
+    "amount": 100
+   },
+   {
+    "ingredientId": "tomaat",
+    "amount": 2
+   },
+   {
+    "ingredientId": "komkommer",
+    "amount": 0.5
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 20
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "kip-pita",
+  "title": "Pita kip met knoflooksaus",
+  "minutes": 25,
+  "tags": [
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Bak de kipdij in reepjes met paprikapoeder en komijn.",
+   "Roer geperste knoflook door de yoghurt.",
+   "Rooster de pitabroodjes.",
+   "Vul met sla, tomaat, komkommer, kip en knoflooksaus."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipdij",
+    "amount": 350
+   },
+   {
+    "ingredientId": "pita",
+    "amount": 4
+   },
+   {
+    "ingredientId": "yoghurt",
+    "amount": 150
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 1
+   },
+   {
+    "ingredientId": "sla",
+    "amount": 75
+   },
+   {
+    "ingredientId": "tomaat",
+    "amount": 2
+   },
+   {
+    "ingredientId": "komkommer",
+    "amount": 0.5
+   },
+   {
+    "ingredientId": "paprikapoeder",
+    "amount": 3
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "tofu-noedels",
+  "title": "Roerbak tofu met noedels",
+  "minutes": 25,
+  "tags": [
+   "wok",
+   "eiwitrijk"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de mie volgens de verpakking.",
+   "Bak de tofublokjes krokant in olie.",
+   "Roerbak paprika, taugé, gember en knoflook 3 min.",
+   "Schep mie, tofu en sojasaus erdoor en bestrooi met lente-ui."
+  ],
+  "lines": [
+   {
+    "ingredientId": "tofu",
+    "amount": 400
+   },
+   {
+    "ingredientId": "mie",
+    "amount": 200
+   },
+   {
+    "ingredientId": "tauge",
+    "amount": 200
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "lente-ui",
+    "amount": 3
+   },
+   {
+    "ingredientId": "sojasaus",
+    "amount": 30
+   },
+   {
+    "ingredientId": "gember",
+    "amount": 10
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "ovenschotel-broccoli",
+  "title": "Ovenschotel met gehakt en broccoli",
+  "minutes": 45,
+  "tags": [
+   "oven"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Kook aardappelschijfjes en broccoli 8 min.",
+   "Bak het gehakt rul.",
+   "Laag alles in een schaal, giet kookroom erover, bestrooi met kaas en bak 20 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "gehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "broccoli",
+    "amount": 500
+   },
+   {
+    "ingredientId": "aardappelen",
+    "amount": 600
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 100
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 125
+   }
+  ]
+ },
+ {
+  "id": "risotto-champignon",
+  "title": "Risotto met champignons",
+  "minutes": 35,
+  "tags": [
+   "rijst"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Los het bouillonblokje op in 1 liter heet water.",
+   "Fruit ui en knoflook, bak de rijst kort mee.",
+   "Voeg steeds een scheut bouillon toe en roer tot de rijst gaar is (18 min).",
+   "Bak de champignons apart en roer ze met boter en Parmezaan erdoor."
+  ],
+  "lines": [
+   {
+    "ingredientId": "risottorijst",
+    "amount": 200
+   },
+   {
+    "ingredientId": "champignons",
+    "amount": 300
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "bouillon",
+    "amount": 1
+   },
+   {
+    "ingredientId": "parmezaan",
+    "amount": 40
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 20
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "dal",
+  "title": "Rode linzendal met spinazie",
+  "minutes": 35,
+  "tags": [
+   "curry"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de rijst.",
+   "Fruit ui, knoflook, gember en kerrie in olie.",
+   "Voeg linzen, tomaat, kokosmelk en 400 ml water toe en kook 20 min.",
+   "Roer de spinazie erdoor."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rode-linzen",
+    "amount": 200
+   },
+   {
+    "ingredientId": "kokosmelk",
+    "amount": 200
+   },
+   {
+    "ingredientId": "tomatenblokjes",
+    "amount": 400
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "gember",
+    "amount": 10
+   },
+   {
+    "ingredientId": "kerrie",
+    "amount": 8
+   },
+   {
+    "ingredientId": "spinazie",
+    "amount": 200
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "burrito-bowl",
+  "title": "Burrito bowl met zwarte bonen",
+  "minutes": 25,
+  "tags": [
+   "bonen",
+   "snel"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de rijst.",
+   "Verwarm de bonen met de taco-kruiden.",
+   "Snijd avocado, tomaat en rode ui.",
+   "Verdeel alles over kommen met maïs, yoghurt en limoen."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "zwarte-bonen",
+    "amount": 400
+   },
+   {
+    "ingredientId": "mais",
+    "amount": 150
+   },
+   {
+    "ingredientId": "avocado",
+    "amount": 1
+   },
+   {
+    "ingredientId": "tomaat",
+    "amount": 2
+   },
+   {
+    "ingredientId": "rode-ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "limoen",
+    "amount": 1
+   },
+   {
+    "ingredientId": "yoghurt",
+    "amount": 100
+   },
+   {
+    "ingredientId": "taco-kruiden",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "garnalen-pasta",
+  "title": "Spaghetti met knoflookgarnalen",
+  "minutes": 20,
+  "tags": [
+   "pasta",
+   "vis",
+   "snel",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de spaghetti.",
+   "Bak knoflook en rode peper kort in olie.",
+   "Bak de garnalen en tomaatjes 3 min mee.",
+   "Schep de spaghetti en peterselie erdoor."
+  ],
+  "lines": [
+   {
+    "ingredientId": "spaghetti",
+    "amount": 200
+   },
+   {
+    "ingredientId": "garnalen",
+    "amount": 250
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 3
+   },
+   {
+    "ingredientId": "rode-peper",
+    "amount": 1
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 250
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 30
+   },
+   {
+    "ingredientId": "peterselie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "varkenshaas",
+  "title": "Varkenshaas met champignonroomsaus",
+  "minutes": 35,
+  "tags": [
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst en de sperziebonen.",
+   "Bak de varkenshaas rondom bruin en gaar hem 12 min op laag vuur.",
+   "Bak de champignons in boter en voeg kookroom toe.",
+   "Snijd het vlees in plakken en serveer met de saus."
+  ],
+  "lines": [
+   {
+    "ingredientId": "varkenshaas",
+    "amount": 400
+   },
+   {
+    "ingredientId": "champignons",
+    "amount": 250
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 125
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "sperziebonen",
+    "amount": 300
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "macaroni",
+  "title": "Macaroni met gehakt en kaas",
+  "minutes": 30,
+  "tags": [
+   "pasta"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de macaroni.",
+   "Bak het gehakt met ui en paprika.",
+   "Voeg tomatenpuree en passata toe en laat 5 min pruttelen.",
+   "Schep de macaroni erdoor en bestrooi met kaas."
+  ],
+  "lines": [
+   {
+    "ingredientId": "macaroni",
+    "amount": 200
+   },
+   {
+    "ingredientId": "gehakt",
+    "amount": 250
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "tomatenpuree",
+    "amount": 70
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 250
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 75
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "kip-kerrie",
+  "title": "Kip kerrie met rijst en doperwten",
+  "minutes": 30,
+  "tags": [
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst.",
+   "Bak kip en ui, strooi kerrie en bloem erover.",
+   "Voeg kookroom, appelblokjes en 100 ml water toe en laat 10 min sudderen.",
+   "Kook de doperwten 3 min en serveer alles samen."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipfilet",
+    "amount": 350
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "appel",
+    "amount": 1
+   },
+   {
+    "ingredientId": "kerrie",
+    "amount": 10
+   },
+   {
+    "ingredientId": "kookroom",
+    "amount": 200
+   },
+   {
+    "ingredientId": "bloem",
+    "amount": 15
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "doperwten",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "omelet",
+  "title": "Groenteomelet met stokbrood",
+  "minutes": 15,
+  "tags": [
+   "ei",
+   "snel"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Bak paprika en champignons in boter.",
+   "Klop de eieren los en giet ze over de groenten.",
+   "Bestrooi met lente-ui en kaas en laat op laag vuur stollen.",
+   "Serveer met stokbrood."
+  ],
+  "lines": [
+   {
+    "ingredientId": "ei",
+    "amount": 6
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 1
+   },
+   {
+    "ingredientId": "champignons",
+    "amount": 150
+   },
+   {
+    "ingredientId": "lente-ui",
+    "amount": 3
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 50
+   },
+   {
+    "ingredientId": "stokbrood",
+    "amount": 1
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "zoete-aardappel-feta",
+  "title": "Zoete aardappel uit de oven met kikkererwten en feta",
+  "minutes": 40,
+  "tags": [
+   "oven"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Verwarm de oven op 210 °C.",
+   "Rooster blokjes zoete aardappel en kikkererwten met olie en paprikapoeder 30 min.",
+   "Schep de rucola erdoor en verkruimel de feta erover."
+  ],
+  "lines": [
+   {
+    "ingredientId": "zoete-aardappel",
+    "amount": 700
+   },
+   {
+    "ingredientId": "kikkererwten",
+    "amount": 400
+   },
+   {
+    "ingredientId": "feta",
+    "amount": 150
+   },
+   {
+    "ingredientId": "rucola",
+    "amount": 75
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 25
+   },
+   {
+    "ingredientId": "paprikapoeder",
+    "amount": 4
+   }
+  ]
+ },
+ {
+  "id": "carbonara",
+  "title": "Pasta carbonara",
+  "minutes": 20,
+  "tags": [
+   "pasta",
+   "snel"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de spaghetti.",
+   "Bak de spekreepjes krokant.",
+   "Klop eieren met Parmezaan en veel peper.",
+   "Schep van het vuur alles door de hete pasta tot een romige saus."
+  ],
+  "lines": [
+   {
+    "ingredientId": "spaghetti",
+    "amount": 200
+   },
+   {
+    "ingredientId": "spekreepjes",
+    "amount": 150
+   },
+   {
+    "ingredientId": "ei",
+    "amount": 3
+   },
+   {
+    "ingredientId": "parmezaan",
+    "amount": 50
+   },
+   {
+    "ingredientId": "peper",
+    "amount": 2
+   }
+  ]
+ },
+ {
+  "id": "tonijnsalade",
+  "title": "Salade met tonijn, krieltjes en ei",
+  "minutes": 25,
+  "tags": [
+   "vis",
+   "salade",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de krieltjes 15 min en de sperziebonen 6 min.",
+   "Kook de eieren 8 min en pel ze.",
+   "Meng sla, tomaat, krieltjes, bonen en tonijn.",
+   "Maak een dressing van olie en azijn en leg de eieren erop."
+  ],
+  "lines": [
+   {
+    "ingredientId": "tonijn",
+    "amount": 290
+   },
+   {
+    "ingredientId": "krieltjes",
+    "amount": 500
+   },
+   {
+    "ingredientId": "ei",
+    "amount": 4
+   },
+   {
+    "ingredientId": "sperziebonen",
+    "amount": 250
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 200
+   },
+   {
+    "ingredientId": "sla",
+    "amount": 100
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 20
+   },
+   {
+    "ingredientId": "azijn",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "bloemkool-kaassaus",
+  "title": "Bloemkool met kaassaus en gehaktballen",
+  "minutes": 40,
+  "tags": [
+   "hollands",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de aardappelen en bloemkoolroosjes.",
+   "Draai 6 balletjes van het gehakt en bak ze rondom gaar.",
+   "Maak een roux van boter en bloem, voeg al roerend melk toe en smelt de kaas erin.",
+   "Giet de saus over de bloemkool."
+  ],
+  "lines": [
+   {
+    "ingredientId": "bloemkool",
+    "amount": 800
+   },
+   {
+    "ingredientId": "rundergehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "aardappelen",
+    "amount": 600
+   },
+   {
+    "ingredientId": "melk",
+    "amount": 300
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 25
+   },
+   {
+    "ingredientId": "bloem",
+    "amount": 25
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 75
+   }
+  ]
+ },
+ {
+  "id": "kipdij-oven",
+  "title": "Kipdijen uit de oven met zoete aardappel",
+  "minutes": 40,
+  "tags": [
+   "oven",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Verwarm de oven op 210 °C.",
+   "Leg kipdij, zoete aardappel, paprika en ui op een bakplaat.",
+   "Besprenkel met olie en paprikapoeder.",
+   "Rooster 30 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipdij",
+    "amount": 450
+   },
+   {
+    "ingredientId": "zoete-aardappel",
+    "amount": 600
+   },
+   {
+    "ingredientId": "paprika",
+    "amount": 2
+   },
+   {
+    "ingredientId": "rode-ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "paprikapoeder",
+    "amount": 4
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 20
+   }
+  ]
+ },
+ {
+  "id": "rode-kool",
+  "title": "Rode kool met appel en gehaktballen",
+  "minutes": 40,
+  "tags": [
+   "hollands"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Stoof de rode kool met appelstukjes en een scheutje water 30 min.",
+   "Kook de aardappelen.",
+   "Draai balletjes van het gehakt en bak ze in boter gaar."
+  ],
+  "lines": [
+   {
+    "ingredientId": "rode-kool",
+    "amount": 500
+   },
+   {
+    "ingredientId": "appel",
+    "amount": 2
+   },
+   {
+    "ingredientId": "aardappelen",
+    "amount": 600
+   },
+   {
+    "ingredientId": "gehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "spitskool-gehakt",
+  "title": "Spitskool met gehakt en rijst",
+  "minutes": 25,
+  "tags": [
+   "wok",
+   "snel"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst.",
+   "Bak het gehakt rul met ui, knoflook en sambal.",
+   "Voeg de gesneden spitskool toe en roerbak 5 min.",
+   "Maak af met ketjap."
+  ],
+  "lines": [
+   {
+    "ingredientId": "gehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "spitskool",
+    "amount": 500
+   },
+   {
+    "ingredientId": "ketjap",
+    "amount": 30
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "sambal",
+    "amount": 5
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "vega-lasagne",
+  "title": "Lasagne met spinazie en mozzarella",
+  "minutes": 60,
+  "tags": [
+   "oven",
+   "pasta"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Laat de spinazie met knoflook slinken en meng met crème fraîche.",
+   "Bouw lagen van passata, lasagnebladen en spinazie.",
+   "Beleg met mozzarella en kaas en bak 35 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "lasagne",
+    "amount": 180
+   },
+   {
+    "ingredientId": "spinazie",
+    "amount": 500
+   },
+   {
+    "ingredientId": "mozzarella",
+    "amount": 125
+   },
+   {
+    "ingredientId": "creme-fraiche",
+    "amount": 200
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 500
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 75
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "quinoasalade",
+  "title": "Quinoasalade met geitenkaas en avocado",
+  "minutes": 25,
+  "tags": [
+   "salade"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de quinoa 15 min en laat afkoelen.",
+   "Snijd avocado, tomaat en komkommer.",
+   "Meng met rucola, olie en citroensap.",
+   "Verkruimel de geitenkaas erover."
+  ],
+  "lines": [
+   {
+    "ingredientId": "quinoa",
+    "amount": 150
+   },
+   {
+    "ingredientId": "geitenkaas",
+    "amount": 100
+   },
+   {
+    "ingredientId": "rucola",
+    "amount": 75
+   },
+   {
+    "ingredientId": "avocado",
+    "amount": 1
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 200
+   },
+   {
+    "ingredientId": "komkommer",
+    "amount": 0.5
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 20
+   },
+   {
+    "ingredientId": "citroen",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "mie-garnalen",
+  "title": "Mie goreng met garnalen",
+  "minutes": 25,
+  "tags": [
+   "wok",
+   "vis"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de mie.",
+   "Bak knoflook en sambal, voeg spitskool en taugé toe.",
+   "Bak de garnalen 2 min mee en schuif opzij voor de losgeklopte eieren.",
+   "Schep mie en ketjap erdoor."
+  ],
+  "lines": [
+   {
+    "ingredientId": "mie",
+    "amount": 200
+   },
+   {
+    "ingredientId": "garnalen",
+    "amount": 250
+   },
+   {
+    "ingredientId": "ei",
+    "amount": 2
+   },
+   {
+    "ingredientId": "tauge",
+    "amount": 200
+   },
+   {
+    "ingredientId": "spitskool",
+    "amount": 200
+   },
+   {
+    "ingredientId": "ketjap",
+    "amount": 30
+   },
+   {
+    "ingredientId": "sambal",
+    "amount": 5
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "tempeh-ketjap",
+  "title": "Ketjap-tempeh met rijst en sperziebonen",
+  "minutes": 30,
+  "tags": [
+   "eiwitrijk"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Kook de rijst en de sperziebonen.",
+   "Bak de tempehblokjes krokant.",
+   "Voeg knoflook, sambal en ketjap toe en laat karamelliseren.",
+   "Serveer samen."
+  ],
+  "lines": [
+   {
+    "ingredientId": "tempeh",
+    "amount": 350
+   },
+   {
+    "ingredientId": "ketjap",
+    "amount": 40
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "sperziebonen",
+    "amount": 300
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "sambal",
+    "amount": 5
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "vega-bolognese",
+  "title": "Vegetarische bolognese",
+  "minutes": 30,
+  "tags": [
+   "pasta"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Fruit ui, knoflook, wortel en courgette.",
+   "Bak het vegetarisch gehakt mee.",
+   "Voeg passata toe en laat 10 min pruttelen.",
+   "Kook de spaghetti en serveer met Parmezaan."
+  ],
+  "lines": [
+   {
+    "ingredientId": "vega-gehakt",
+    "amount": 300
+   },
+   {
+    "ingredientId": "spaghetti",
+    "amount": 200
+   },
+   {
+    "ingredientId": "passata",
+    "amount": 500
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "knoflook",
+    "amount": 2
+   },
+   {
+    "ingredientId": "wortel",
+    "amount": 150
+   },
+   {
+    "ingredientId": "courgette",
+    "amount": 1
+   },
+   {
+    "ingredientId": "parmezaan",
+    "amount": 30
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "zalm-soja",
+  "title": "Zalm met sojasaus, rijst en broccoli",
+  "minutes": 25,
+  "tags": [
+   "vis"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Kook de rijst en de broccoli.",
+   "Bak de zalm 4 min per kant.",
+   "Roer sojasaus, honing en gember door elkaar en laat kort in de pan inkoken over de zalm."
+  ],
+  "lines": [
+   {
+    "ingredientId": "zalm",
+    "amount": 250
+   },
+   {
+    "ingredientId": "rijst",
+    "amount": 150
+   },
+   {
+    "ingredientId": "broccoli",
+    "amount": 400
+   },
+   {
+    "ingredientId": "sojasaus",
+    "amount": 30
+   },
+   {
+    "ingredientId": "honing",
+    "amount": 15
+   },
+   {
+    "ingredientId": "gember",
+    "amount": 10
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 10
+   }
+  ]
+ },
+ {
+  "id": "pannenkoeken",
+  "title": "Hartige pannenkoeken met spek en kaas",
+  "minutes": 35,
+  "tags": [
+   "hollands"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Klop bloem, melk en eieren tot een glad beslag.",
+   "Bak de spekreepjes kort aan in boter.",
+   "Giet beslag over het spek en bak de pannenkoek aan beide kanten.",
+   "Strooi kaas erover terwijl hij nog warm is."
+  ],
+  "lines": [
+   {
+    "ingredientId": "bloem",
+    "amount": 250
+   },
+   {
+    "ingredientId": "melk",
+    "amount": 500
+   },
+   {
+    "ingredientId": "ei",
+    "amount": 2
+   },
+   {
+    "ingredientId": "spekreepjes",
+    "amount": 125
+   },
+   {
+    "ingredientId": "geraspte-kaas",
+    "amount": 75
+   },
+   {
+    "ingredientId": "boter",
+    "amount": 20
+   }
+  ]
+ },
+ {
+  "id": "kippensoep",
+  "title": "Kippensoep met mie",
+  "minutes": 30,
+  "tags": [
+   "soep"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Breng 1,5 liter water met de bouillonblokjes aan de kook.",
+   "Pocheer de kipfilet 15 min en trek in draadjes.",
+   "Kook wortel, prei en mie 5 min mee.",
+   "Doe de kip terug en bestrooi met lente-ui."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipfilet",
+    "amount": 250
+   },
+   {
+    "ingredientId": "mie",
+    "amount": 100
+   },
+   {
+    "ingredientId": "wortel",
+    "amount": 150
+   },
+   {
+    "ingredientId": "prei",
+    "amount": 1
+   },
+   {
+    "ingredientId": "bouillon",
+    "amount": 2
+   },
+   {
+    "ingredientId": "lente-ui",
+    "amount": 2
+   }
+  ]
+ },
+ {
+  "id": "gevulde-paprika",
+  "title": "Gevulde paprika met couscous en feta",
+  "minutes": 40,
+  "tags": [
+   "oven"
+  ],
+  "vegetarian": true,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Wel de couscous en meng met gebakken ui, komijn, tomaatjes, kikkererwten en feta.",
+   "Vul de gehalveerde paprika’s.",
+   "Bak 25 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "paprika",
+    "amount": 4
+   },
+   {
+    "ingredientId": "couscous",
+    "amount": 150
+   },
+   {
+    "ingredientId": "feta",
+    "amount": 150
+   },
+   {
+    "ingredientId": "cherrytomaten",
+    "amount": 200
+   },
+   {
+    "ingredientId": "ui",
+    "amount": 1
+   },
+   {
+    "ingredientId": "komijn",
+    "amount": 2
+   },
+   {
+    "ingredientId": "kikkererwten",
+    "amount": 200
+   },
+   {
+    "ingredientId": "olie",
+    "amount": 15
+   }
+  ]
+ },
+ {
+  "id": "ovenschotel-pesto",
+  "title": "Ovenschotel met kip, broccoli en pesto",
+  "minutes": 35,
+  "tags": [
+   "oven",
+   "eiwitrijk"
+  ],
+  "vegetarian": false,
+  "steps": [
+   "Verwarm de oven op 200 °C.",
+   "Kook krieltjes 10 min en broccoli 3 min voor.",
+   "Meng met kipblokjes en pesto in een ovenschaal.",
+   "Beleg met mozzarella en bak 20 min."
+  ],
+  "lines": [
+   {
+    "ingredientId": "kipfilet",
+    "amount": 350
+   },
+   {
+    "ingredientId": "broccoli",
+    "amount": 400
+   },
+   {
+    "ingredientId": "krieltjes",
+    "amount": 500
+   },
+   {
+    "ingredientId": "pesto",
+    "amount": 90
+   },
+   {
+    "ingredientId": "mozzarella",
+    "amount": 125
+   }
+  ]
+ }
+]

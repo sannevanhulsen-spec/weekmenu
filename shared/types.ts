@@ -4,7 +4,7 @@ export const STORE_NAMES: Record<StoreId, string> = { ah: 'Albert Heijn', jumbo:
 export type Unit = 'g' | 'ml' | 'stuk';
 
 /** Per 100 g, values unchanged from NEVO-online. */
-export interface NevoItem { code: number; name: string; kcal: number; protein: number; carbs: number; fat: number; fiber: number; salt: number }
+export interface NevoItem { code: number; name: string; kcal: number; protein: number; carbs: number; fat: number; fiber: number; /** sodium, mg per 100 g (NEVO NA) */ na: number }
 
 export interface Ingredient {
   id: string;

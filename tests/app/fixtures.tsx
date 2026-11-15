@@ -18,7 +18,7 @@ export function makeData(): AppData {
     ing('kip', { nevoCode: 1, aisle: 'vlees' }), ing('rijst', { aisle: 'pasta en rijst' }),
     ing('spruitjes', { aisle: 'groente' }), ing('zout', { pantry: true }), ing('saffraan'),
   ];
-  const nevo: NevoItem[] = [{ code: 1, name: 'kip', kcal: 110, protein: 23, carbs: 0, fat: 2, fiber: 0, salt: 0.1 }];
+  const nevo: NevoItem[] = [{ code: 1, name: 'kip', kcal: 110, protein: 23, carbs: 0, fat: 2, fiber: 0, na: 40 }];
   const recipes = [
     recipe('kip', [{ ingredientId: 'kip', amount: 300 }, { ingredientId: 'rijst', amount: 150 }, { ingredientId: 'zout', amount: 5 }]),
     recipe('spruit', [{ ingredientId: 'spruitjes', amount: 400 }, { ingredientId: 'rijst', amount: 150 }], { vegetarian: true }),

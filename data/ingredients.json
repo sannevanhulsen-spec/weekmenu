@@ -1,0 +1,1282 @@
+[
+ {
+  "id": "ui",
+  "name": "ui",
+  "unit": "stuk",
+  "gramsPerPiece": 100,
+  "nevoCode": 63,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "uien",
+   "aldi": "uien"
+  }
+ },
+ {
+  "id": "rode-ui",
+  "name": "rode ui",
+  "unit": "stuk",
+  "gramsPerPiece": 100,
+  "nevoCode": 5459,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "rode uien",
+   "aldi": "rode uien"
+  }
+ },
+ {
+  "id": "knoflook",
+  "name": "knoflook (teen)",
+  "unit": "stuk",
+  "gramsPerPiece": 5,
+  "nevoCode": 830,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "knoflook",
+   "aldi": "knoflook"
+  }
+ },
+ {
+  "id": "prei",
+  "name": "prei",
+  "unit": "stuk",
+  "gramsPerPiece": 200,
+  "nevoCode": 562,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "prei",
+   "aldi": "prei"
+  }
+ },
+ {
+  "id": "wortel",
+  "name": "wortel",
+  "unit": "g",
+  "nevoCode": 2728,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "winterpeen",
+   "aldi": "winterpeen"
+  }
+ },
+ {
+  "id": "paprika",
+  "name": "paprika",
+  "unit": "stuk",
+  "gramsPerPiece": 150,
+  "nevoCode": 884,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "paprika",
+   "aldi": "paprika"
+  }
+ },
+ {
+  "id": "courgette",
+  "name": "courgette",
+  "unit": "stuk",
+  "gramsPerPiece": 300,
+  "nevoCode": 922,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "courgette",
+   "aldi": "courgette"
+  }
+ },
+ {
+  "id": "aubergine",
+  "name": "aubergine",
+  "unit": "stuk",
+  "gramsPerPiece": 300,
+  "nevoCode": 10,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "aubergine",
+   "aldi": "aubergine"
+  }
+ },
+ {
+  "id": "broccoli",
+  "name": "broccoli",
+  "unit": "g",
+  "nevoCode": 921,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "broccoli",
+   "aldi": "broccoli"
+  }
+ },
+ {
+  "id": "bloemkool",
+  "name": "bloemkool",
+  "unit": "g",
+  "nevoCode": 14,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "bloemkool",
+   "aldi": "bloemkool"
+  }
+ },
+ {
+  "id": "spinazie",
+  "name": "spinazie",
+  "unit": "g",
+  "nevoCode": 51,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "spinazie",
+   "aldi": "spinazie"
+  }
+ },
+ {
+  "id": "sperziebonen",
+  "name": "sperziebonen",
+  "unit": "g",
+  "nevoCode": 50,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "sperziebonen",
+   "aldi": "sperziebonen"
+  }
+ },
+ {
+  "id": "champignons",
+  "name": "champignons",
+  "unit": "g",
+  "nevoCode": 19,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "champignons",
+   "aldi": "champignons"
+  }
+ },
+ {
+  "id": "tomaat",
+  "name": "tomaat",
+  "unit": "stuk",
+  "gramsPerPiece": 100,
+  "nevoCode": 2734,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "tomaten",
+   "aldi": "tomaten"
+  }
+ },
+ {
+  "id": "cherrytomaten",
+  "name": "cherrytomaten",
+  "unit": "g",
+  "nevoCode": 2731,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "cherrytomaten",
+   "aldi": "cherrytomaten"
+  }
+ },
+ {
+  "id": "komkommer",
+  "name": "komkommer",
+  "unit": "stuk",
+  "gramsPerPiece": 350,
+  "nevoCode": 2739,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "komkommer",
+   "aldi": "komkommer"
+  }
+ },
+ {
+  "id": "sla",
+  "name": "ijsbergsla",
+  "unit": "g",
+  "nevoCode": 1399,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "ijsbergsla",
+   "aldi": "ijsbergsla"
+  }
+ },
+ {
+  "id": "rucola",
+  "name": "rucola",
+  "unit": "g",
+  "nevoCode": 2736,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "rucola",
+   "aldi": "rucola"
+  }
+ },
+ {
+  "id": "spitskool",
+  "name": "spitskool",
+  "unit": "g",
+  "nevoCode": 53,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "spitskool",
+   "aldi": "spitskool"
+  }
+ },
+ {
+  "id": "rode-kool",
+  "name": "rode kool",
+  "unit": "g",
+  "nevoCode": 41,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "rode kool",
+   "aldi": "rode kool"
+  }
+ },
+ {
+  "id": "boerenkool",
+  "name": "boerenkool",
+  "unit": "g",
+  "nevoCode": 959,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "boerenkool",
+   "aldi": "boerenkool"
+  }
+ },
+ {
+  "id": "andijvie",
+  "name": "andijvie",
+  "unit": "g",
+  "nevoCode": 7,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "andijvie",
+   "aldi": "andijvie"
+  }
+ },
+ {
+  "id": "zoete-aardappel",
+  "name": "zoete aardappel",
+  "unit": "g",
+  "nevoCode": 671,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "zoete aardappel",
+   "aldi": "zoete aardappel"
+  }
+ },
+ {
+  "id": "aardappelen",
+  "name": "aardappelen",
+  "unit": "g",
+  "nevoCode": 1,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "aardappelen",
+   "aldi": "aardappelen"
+  }
+ },
+ {
+  "id": "krieltjes",
+  "name": "krieltjes",
+  "unit": "g",
+  "nevoCode": 2,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "kriel",
+   "aldi": "kriel"
+  }
+ },
+ {
+  "id": "avocado",
+  "name": "avocado",
+  "unit": "stuk",
+  "gramsPerPiece": 150,
+  "nevoCode": 689,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "avocado",
+   "aldi": "avocado"
+  }
+ },
+ {
+  "id": "citroen",
+  "name": "citroen",
+  "unit": "stuk",
+  "gramsPerPiece": 100,
+  "nevoCode": 158,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "citroen",
+   "aldi": "citroen"
+  }
+ },
+ {
+  "id": "limoen",
+  "name": "limoen",
+  "unit": "stuk",
+  "gramsPerPiece": 70,
+  "nevoCode": 691,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "limoen",
+   "aldi": "limoen"
+  }
+ },
+ {
+  "id": "gember",
+  "name": "verse gember",
+  "unit": "g",
+  "nevoCode": 832,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "gember",
+   "aldi": "gember"
+  }
+ },
+ {
+  "id": "rode-peper",
+  "name": "rode peper",
+  "unit": "stuk",
+  "gramsPerPiece": 15,
+  "nevoCode": 2524,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "rode peper",
+   "aldi": "rode peper"
+  }
+ },
+ {
+  "id": "lente-ui",
+  "name": "lente-ui",
+  "unit": "stuk",
+  "gramsPerPiece": 15,
+  "nevoCode": 63,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "bosui",
+   "aldi": "bosui"
+  }
+ },
+ {
+  "id": "koriander",
+  "name": "verse koriander",
+  "unit": "g",
+  "nevoCode": 5415,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "koriander",
+   "aldi": "koriander"
+  }
+ },
+ {
+  "id": "basilicum",
+  "name": "verse basilicum",
+  "unit": "g",
+  "nevoCode": 2177,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "basilicum",
+   "aldi": "basilicum"
+  }
+ },
+ {
+  "id": "peterselie",
+  "name": "verse peterselie",
+  "unit": "g",
+  "nevoCode": 128,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "peterselie",
+   "aldi": "peterselie"
+  }
+ },
+ {
+  "id": "appel",
+  "name": "appel",
+  "unit": "stuk",
+  "gramsPerPiece": 180,
+  "nevoCode": 875,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "appels",
+   "aldi": "appels"
+  }
+ },
+ {
+  "id": "pompoen",
+  "name": "pompoen",
+  "unit": "g",
+  "nevoCode": 682,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "pompoen",
+   "aldi": "pompoen"
+  }
+ },
+ {
+  "id": "tauge",
+  "name": "taugé",
+  "unit": "g",
+  "nevoCode": 58,
+  "pantry": false,
+  "aisle": "groente en fruit",
+  "search": {
+   "jumbo": "taug",
+   "aldi": "taug"
+  }
+ },
+ {
+  "id": "kipfilet",
+  "name": "kipfilet",
+  "unit": "g",
+  "nevoCode": 1634,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "kipfilet",
+   "aldi": "kipfilet"
+  }
+ },
+ {
+  "id": "kipdij",
+  "name": "kipdijfilet",
+  "unit": "g",
+  "nevoCode": 1305,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "kipdij",
+   "aldi": "kipdij"
+  }
+ },
+ {
+  "id": "rundergehakt",
+  "name": "rundergehakt",
+  "unit": "g",
+  "nevoCode": 1405,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "rundergehakt",
+   "aldi": "rundergehakt"
+  }
+ },
+ {
+  "id": "gehakt",
+  "name": "half-om-half gehakt",
+  "unit": "g",
+  "nevoCode": 1434,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "half-om-half",
+   "aldi": "half-om-half"
+  }
+ },
+ {
+  "id": "varkenshaas",
+  "name": "varkenshaas",
+  "unit": "g",
+  "nevoCode": 1422,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "varkenshaas",
+   "aldi": "varkenshaas"
+  }
+ },
+ {
+  "id": "spekreepjes",
+  "name": "spekreepjes",
+  "unit": "g",
+  "nevoCode": 639,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "spekreepjes",
+   "aldi": "spek"
+  }
+ },
+ {
+  "id": "rookworst",
+  "name": "rookworst",
+  "unit": "g",
+  "nevoCode": 324,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "rookworst",
+   "aldi": "rookworst"
+  }
+ },
+ {
+  "id": "biefstuk",
+  "name": "biefstuk",
+  "unit": "g",
+  "nevoCode": 1400,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "biefstuk",
+   "aldi": "biefstuk"
+  }
+ },
+ {
+  "id": "zalm",
+  "name": "zalmfilet",
+  "unit": "g",
+  "nevoCode": 1587,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "zalmfilet",
+   "aldi": "zalmfilet"
+  }
+ },
+ {
+  "id": "kabeljauw",
+  "name": "kabeljauwfilet",
+  "unit": "g",
+  "nevoCode": 820,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "kabeljauw",
+   "aldi": "kabeljauw"
+  }
+ },
+ {
+  "id": "garnalen",
+  "name": "garnalen",
+  "unit": "g",
+  "nevoCode": 348,
+  "pantry": false,
+  "aisle": "vlees en vis",
+  "search": {
+   "jumbo": "garnalen",
+   "aldi": "garnalen"
+  }
+ },
+ {
+  "id": "tofu",
+  "name": "tofu",
+  "unit": "g",
+  "nevoCode": 5519,
+  "pantry": false,
+  "aisle": "vega",
+  "search": {
+   "jumbo": "tofu",
+   "aldi": "tofu"
+  }
+ },
+ {
+  "id": "tempeh",
+  "name": "tempeh",
+  "unit": "g",
+  "nevoCode": 5573,
+  "pantry": false,
+  "aisle": "vega",
+  "search": {
+   "jumbo": "tempeh",
+   "aldi": "tempeh"
+  }
+ },
+ {
+  "id": "vega-gehakt",
+  "name": "vegetarisch gehakt",
+  "unit": "g",
+  "nevoCode": 2047,
+  "pantry": false,
+  "aisle": "vega",
+  "search": {
+   "jumbo": "vegetarisch gehakt",
+   "aldi": "gehakt"
+  }
+ },
+ {
+  "id": "melk",
+  "name": "halfvolle melk",
+  "unit": "ml",
+  "nevoCode": 286,
+  "pantry": false,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "halfvolle melk",
+   "aldi": "halfvolle melk"
+  }
+ },
+ {
+  "id": "kookroom",
+  "name": "kookroom",
+  "unit": "ml",
+  "nevoCode": 2275,
+  "pantry": false,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "kookroom",
+   "aldi": "kookroom"
+  }
+ },
+ {
+  "id": "creme-fraiche",
+  "name": "crème fraîche",
+  "unit": "g",
+  "nevoCode": 1808,
+  "pantry": false,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "creme fraiche",
+   "aldi": "creme fraiche"
+  }
+ },
+ {
+  "id": "yoghurt",
+  "name": "Griekse yoghurt",
+  "unit": "g",
+  "nevoCode": 2503,
+  "pantry": false,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "griekse yoghurt",
+   "aldi": "griekse yoghurt"
+  }
+ },
+ {
+  "id": "boter",
+  "name": "roomboter",
+  "unit": "g",
+  "nevoCode": 310,
+  "pantry": true,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "roomboter",
+   "aldi": "roomboter"
+  }
+ },
+ {
+  "id": "ei",
+  "name": "ei",
+  "unit": "stuk",
+  "gramsPerPiece": 60,
+  "nevoCode": 83,
+  "pantry": false,
+  "aisle": "zuivel en eieren",
+  "search": {
+   "jumbo": "eieren",
+   "aldi": "eieren"
+  }
+ },
+ {
+  "id": "feta",
+  "name": "feta",
+  "unit": "g",
+  "nevoCode": 3362,
+  "pantry": false,
+  "aisle": "kaas",
+  "search": {
+   "jumbo": "feta",
+   "aldi": "feta"
+  }
+ },
+ {
+  "id": "mozzarella",
+  "name": "mozzarella",
+  "unit": "g",
+  "nevoCode": 1955,
+  "pantry": false,
+  "aisle": "kaas",
+  "search": {
+   "jumbo": "mozzarella",
+   "aldi": "mozzarella"
+  }
+ },
+ {
+  "id": "geraspte-kaas",
+  "name": "geraspte kaas",
+  "unit": "g",
+  "nevoCode": 2758,
+  "pantry": false,
+  "aisle": "kaas",
+  "search": {
+   "jumbo": "geraspte kaas",
+   "aldi": "geraspte"
+  }
+ },
+ {
+  "id": "parmezaan",
+  "name": "Parmezaanse kaas",
+  "unit": "g",
+  "nevoCode": 718,
+  "pantry": false,
+  "aisle": "kaas",
+  "search": {
+   "jumbo": "parmigiano",
+   "aldi": "parmigiano"
+  }
+ },
+ {
+  "id": "geitenkaas",
+  "name": "zachte geitenkaas",
+  "unit": "g",
+  "nevoCode": 1650,
+  "pantry": false,
+  "aisle": "kaas",
+  "search": {
+   "jumbo": "geitenkaas",
+   "aldi": "geitenkaas"
+  }
+ },
+ {
+  "id": "spaghetti",
+  "name": "spaghetti",
+  "unit": "g",
+  "nevoCode": 4,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "spaghetti",
+   "aldi": "spaghetti"
+  }
+ },
+ {
+  "id": "penne",
+  "name": "penne",
+  "unit": "g",
+  "nevoCode": 4,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "penne",
+   "aldi": "penne"
+  }
+ },
+ {
+  "id": "macaroni",
+  "name": "macaroni",
+  "unit": "g",
+  "nevoCode": 4,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "macaroni",
+   "aldi": "macaroni"
+  }
+ },
+ {
+  "id": "lasagne",
+  "name": "lasagnebladen",
+  "unit": "g",
+  "nevoCode": 4,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "lasagne",
+   "aldi": "lasagne"
+  }
+ },
+ {
+  "id": "rijst",
+  "name": "rijst",
+  "unit": "g",
+  "nevoCode": 5,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "rijst",
+   "aldi": "rijst"
+  }
+ },
+ {
+  "id": "risottorijst",
+  "name": "risottorijst",
+  "unit": "g",
+  "nevoCode": 5,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "risotto",
+   "aldi": "risotto"
+  }
+ },
+ {
+  "id": "couscous",
+  "name": "couscous",
+  "unit": "g",
+  "nevoCode": 1889,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "couscous",
+   "aldi": "couscous"
+  }
+ },
+ {
+  "id": "quinoa",
+  "name": "quinoa",
+  "unit": "g",
+  "nevoCode": 3153,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "quinoa",
+   "aldi": "quinoa"
+  }
+ },
+ {
+  "id": "mie",
+  "name": "mie",
+  "unit": "g",
+  "nevoCode": 4,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "mie",
+   "aldi": "mie"
+  }
+ },
+ {
+  "id": "rode-linzen",
+  "name": "rode linzen",
+  "unit": "g",
+  "nevoCode": 120,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "rode linzen",
+   "aldi": "rode linzen"
+  }
+ },
+ {
+  "id": "wraps",
+  "name": "wraps",
+  "unit": "stuk",
+  "gramsPerPiece": 60,
+  "nevoCode": 2359,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "wraps",
+   "aldi": "wraps"
+  }
+ },
+ {
+  "id": "gnocchi",
+  "name": "gnocchi",
+  "unit": "g",
+  "nevoCode": 5418,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "gnocchi",
+   "aldi": "gnocchi"
+  }
+ },
+ {
+  "id": "currypasta",
+  "name": "rode currypasta",
+  "unit": "g",
+  "nevoCode": 2473,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "currypasta",
+   "aldi": "curry"
+  }
+ },
+ {
+  "id": "taco-kruiden",
+  "name": "taco-kruidenmix",
+  "unit": "g",
+  "nevoCode": 1229,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "taco",
+   "aldi": "kruiden"
+  }
+ },
+ {
+  "id": "cashew",
+  "name": "cashewnoten",
+  "unit": "g",
+  "nevoCode": 199,
+  "pantry": false,
+  "aisle": "pasta, rijst en wereld",
+  "search": {
+   "jumbo": "cashew",
+   "aldi": "cashew"
+  }
+ },
+ {
+  "id": "tomatenblokjes",
+  "name": "tomatenblokjes",
+  "unit": "g",
+  "nevoCode": 2293,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "tomatenblokjes",
+   "aldi": "tomaten"
+  }
+ },
+ {
+  "id": "passata",
+  "name": "passata",
+  "unit": "g",
+  "nevoCode": 2498,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "passata",
+   "aldi": "passata"
+  }
+ },
+ {
+  "id": "tomatenpuree",
+  "name": "tomatenpuree",
+  "unit": "g",
+  "nevoCode": 141,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "tomatenpuree",
+   "aldi": "tomatenpuree"
+  }
+ },
+ {
+  "id": "kokosmelk",
+  "name": "kokosmelk",
+  "unit": "ml",
+  "nevoCode": 2290,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "kokosmelk",
+   "aldi": "kokosmelk"
+  }
+ },
+ {
+  "id": "mais",
+  "name": "maïs",
+  "unit": "g",
+  "nevoCode": 2900,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "mais",
+   "aldi": "mais"
+  }
+ },
+ {
+  "id": "kikkererwten",
+  "name": "kikkererwten (uitgelekt)",
+  "unit": "g",
+  "nevoCode": 3185,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "kikkererwten",
+   "aldi": "kikkererwten"
+  }
+ },
+ {
+  "id": "kidneybonen",
+  "name": "kidneybonen (uitgelekt)",
+  "unit": "g",
+  "nevoCode": 5173,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "kidneybonen",
+   "aldi": "kidneybonen"
+  }
+ },
+ {
+  "id": "zwarte-bonen",
+  "name": "zwarte bonen (uitgelekt)",
+  "unit": "g",
+  "nevoCode": 5176,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "zwarte bonen",
+   "aldi": "zwarte bonen"
+  }
+ },
+ {
+  "id": "tonijn",
+  "name": "tonijn (uitgelekt)",
+  "unit": "g",
+  "nevoCode": 1590,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "tonijn",
+   "aldi": "tonijn"
+  }
+ },
+ {
+  "id": "pesto",
+  "name": "groene pesto",
+  "unit": "g",
+  "nevoCode": 2178,
+  "pantry": false,
+  "aisle": "conserven en sauzen",
+  "search": {
+   "jumbo": "pesto",
+   "aldi": "pesto"
+  }
+ },
+ {
+  "id": "olie",
+  "name": "olijfolie",
+  "unit": "ml",
+  "nevoCode": 601,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "olijfolie",
+   "aldi": "olijfolie"
+  }
+ },
+ {
+  "id": "zout",
+  "name": "zout",
+  "unit": "g",
+  "nevoCode": 2953,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "zout",
+   "aldi": "zout"
+  }
+ },
+ {
+  "id": "peper",
+  "name": "zwarte peper",
+  "unit": "g",
+  "nevoCode": 823,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "peper",
+   "aldi": "peper"
+  }
+ },
+ {
+  "id": "paprikapoeder",
+  "name": "paprikapoeder",
+  "unit": "g",
+  "nevoCode": 1229,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "paprikapoeder",
+   "aldi": "paprikapoeder"
+  }
+ },
+ {
+  "id": "komijn",
+  "name": "komijn",
+  "unit": "g",
+  "nevoCode": 827,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "komijn",
+   "aldi": "komijn"
+  }
+ },
+ {
+  "id": "kerrie",
+  "name": "kerriepoeder",
+  "unit": "g",
+  "nevoCode": 1229,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "kerrie",
+   "aldi": "kerrie"
+  }
+ },
+ {
+  "id": "italiaanse-kruiden",
+  "name": "Italiaanse kruiden",
+  "unit": "g",
+  "nevoCode": 1220,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "italiaanse kruiden",
+   "aldi": "italiaanse kruiden"
+  }
+ },
+ {
+  "id": "bloem",
+  "name": "bloem",
+  "unit": "g",
+  "nevoCode": 220,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "bloem",
+   "aldi": "bloem"
+  }
+ },
+ {
+  "id": "honing",
+  "name": "honing",
+  "unit": "g",
+  "nevoCode": 443,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "honing",
+   "aldi": "honing"
+  }
+ },
+ {
+  "id": "azijn",
+  "name": "azijn",
+  "unit": "ml",
+  "nevoCode": 2615,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "azijn",
+   "aldi": "azijn"
+  }
+ },
+ {
+  "id": "sojasaus",
+  "name": "sojasaus",
+  "unit": "ml",
+  "nevoCode": 1213,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "sojasaus",
+   "aldi": "sojasaus"
+  }
+ },
+ {
+  "id": "ketjap",
+  "name": "ketjap manis",
+  "unit": "ml",
+  "nevoCode": 1215,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "ketjap",
+   "aldi": "ketjap"
+  }
+ },
+ {
+  "id": "sambal",
+  "name": "sambal",
+  "unit": "g",
+  "nevoCode": 1232,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "sambal",
+   "aldi": "sambal"
+  }
+ },
+ {
+  "id": "mosterd",
+  "name": "mosterd",
+  "unit": "g",
+  "nevoCode": 824,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "mosterd",
+   "aldi": "mosterd"
+  }
+ },
+ {
+  "id": "bouillon",
+  "name": "bouillonblokje",
+  "unit": "stuk",
+  "gramsPerPiece": 10,
+  "nevoCode": 429,
+  "pantry": true,
+  "aisle": "voorraadkast",
+  "search": {
+   "jumbo": "bouillon",
+   "aldi": "bouillon"
+  }
+ },
+ {
+  "id": "stokbrood",
+  "name": "stokbrood",
+  "unit": "stuk",
+  "gramsPerPiece": 250,
+  "nevoCode": 2793,
+  "pantry": false,
+  "aisle": "brood",
+  "search": {
+   "jumbo": "stokbrood",
+   "aldi": "stokbrood"
+  }
+ },
+ {
+  "id": "pita",
+  "name": "pitabroodje",
+  "unit": "stuk",
+  "gramsPerPiece": 70,
+  "nevoCode": 2790,
+  "pantry": false,
+  "aisle": "brood",
+  "search": {
+   "jumbo": "pita",
+   "aldi": "pita"
+  }
+ },
+ {
+  "id": "doperwten",
+  "name": "doperwten",
+  "unit": "g",
+  "nevoCode": 953,
+  "pantry": false,
+  "aisle": "diepvries",
+  "search": {
+   "jumbo": "doperwten",
+   "aldi": "doperwten"
+  }
+ }
+]

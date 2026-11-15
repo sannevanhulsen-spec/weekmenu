@@ -38,7 +38,13 @@ async function main() {
     const relevant = ingredients.filter((i) => i.search[store]);
     let result: Record<string, Product> | Error;
     try {
-      result = assignProducts(relevant, await fetchProducts(relevant.map((i) => i.search[store]!)));
+      // Dev aid: CACHE=1 stores/reuses the raw product list in .cache/ so matching can be tuned without re-crawling.
+      const cache = `.cache/raw-${store}.json`;
+      const raw: Product[] = process.env.CACHE && existsSync(cache)
+        ? JSON.parse(readFileSync(cache, 'utf8'))
+        : await fetchProducts(relevant.map((i) => i.search[store]!));
+      if (process.env.CACHE) { mkdirSync('.cache', { recursive: true }); writeFileSync(cache, JSON.stringify(raw)); }
+      result = assignProducts(relevant, raw);
     } catch (e) {
       result = e instanceof Error ? e : new Error(String(e));
     }

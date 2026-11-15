@@ -13,8 +13,8 @@ const ingredients = new Map([
   ['zout', ing('zout', { pantry: true })],
 ]);
 const nevo = new Map<number, NevoItem>([
-  [1, { code: 1, name: 'kip', kcal: 110, protein: 23, carbs: 0, fat: 2, fiber: 0, salt: 0.1 }],
-  [2, { code: 2, name: 'tofu', kcal: 120, protein: 12, carbs: 2, fat: 7, fiber: 1, salt: 0 }],
+  [1, { code: 1, name: 'kip', kcal: 110, protein: 23, carbs: 0, fat: 2, fiber: 0, na: 40 }],
+  [2, { code: 2, name: 'tofu', kcal: 120, protein: 12, carbs: 2, fat: 7, fiber: 1, na: 0 }],
 ]);
 const r = (id: string, lines: Recipe['lines'], o: Partial<Recipe> = {}): Recipe =>
   ({ id, title: id, minutes: 25, tags: [], vegetarian: false, steps: [], lines, ...o });
