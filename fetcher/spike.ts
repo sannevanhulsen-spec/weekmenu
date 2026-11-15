@@ -55,3 +55,5 @@ for (const [store, fn] of [['jumbo', jumbo], ['aldi', aldi]] as const) {
   if (hit.length < 7) failed = true;
 }
 process.exit(failed ? 1 : 0);
+
+export {};
