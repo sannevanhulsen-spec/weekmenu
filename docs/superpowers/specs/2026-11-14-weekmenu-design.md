@@ -75,6 +75,11 @@ Gebruikers: een huishouden van 2 personen, op één telefoon.
 - De eigenaar heeft een **AH Bonuskaart** en **Lidl Plus**. Kaartprijzen tellen dus mee.
 - **Acties tellen mee**, zoals "1+1 gratis", "2e halve prijs" en staffels.
 - Er is **geen vaste boodschappendag**.
+- **(2026-11-15, na de haalbaarheidstest)**
+  - Jumbo en Aldi worden automatisch opgehaald. Dat gebeurt via hun openbare pagina's, binnen wat hun `robots.txt` toestaat: bij Jumbo de productpagina's per afdeling, bij Aldi de productsitemap en de productpagina's.
+  - **AH en Lidl gaan handmatig**: de eigenaar vult de prijzen zelf in. De enige automatische routes naar hun prijzen zijn de AH-app-API en de Lidl-zoek-API, en die gaan in tegen de wens van die winkels.
+  - Zolang er voor AH of Lidl geen prijs is ingevuld, toont de app een schatting (8.4).
+  - Een ingevulde prijs geldt als echte prijs. Hij blijft staan tot de eigenaar hem wijzigt, met de vermelding "ingevuld op <datum>".
 
 ## 8. Ontwerp
 
