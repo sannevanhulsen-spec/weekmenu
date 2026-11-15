@@ -22,6 +22,7 @@ jobs:
           git add data/prices/latest.json
           if git diff --cached --quiet; then echo "geen wijzigingen"; exit 0; fi
           git commit -m "data: prijzen $(date -u +%F)"
+          git pull --rebase
           git push
           gh workflow run deploy.yml --ref main
         env:
