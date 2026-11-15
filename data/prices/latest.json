@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-15T09:53:19.107Z",
+ "generatedAt": "2026-11-15T16:21:39.916Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-15T09:53:19.107Z",
+   "fetchedAt": "2026-11-15T16:21:39.916Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-15T09:53:19.107Z",
+   "fetchedAt": "2026-11-15T16:21:39.916Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-15T09:53:19.107Z",
+   "fetchedAt": "2026-11-15T16:21:39.916Z",
    "stale": false,
    "products": {
     "ui": {
@@ -309,7 +309,7 @@
      "title": "Jumbo Kipdijfilet ca. 380g",
      "packAmount": 380,
      "packUnit": "g",
-     "price": 4.65
+     "price": 4.71
     },
     "rundergehakt": {
      "store": "jumbo",
@@ -831,6 +831,22 @@
      "packUnit": "ml",
      "price": 1.79
     },
+    "stokbrood": {
+     "store": "jumbo",
+     "name": "Jumbo - Stokbrood Kruidenboter - 2 Stuks",
+     "title": "Jumbo - Stokbrood Kruidenboter - 2 Stuks",
+     "packAmount": 350,
+     "packUnit": "g",
+     "price": 1.69
+    },
+    "pita": {
+     "store": "jumbo",
+     "name": "Jumbo - Pita Broodjes - 10 Stuks",
+     "title": "Jumbo - Pita Broodjes - 10 Stuks",
+     "packAmount": 500,
+     "packUnit": "g",
+     "price": 0.79
+    },
     "doperwten": {
      "store": "jumbo",
      "name": "Jumbo Doperwten 680 g",
@@ -842,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-15T09:53:19.107Z",
+   "fetchedAt": "2026-11-15T16:21:39.916Z",
    "stale": false,
    "products": {
     "ui": {
