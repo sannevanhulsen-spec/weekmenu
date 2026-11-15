@@ -183,7 +183,7 @@
   "pantry": false,
   "aisle": "groente en fruit",
   "search": {
-   "jumbo": "cherrytomaten",
+   "jumbo": "cherry tomaten",
    "aldi": "cherrytomaten"
   }
  },
@@ -527,7 +527,7 @@
   "aisle": "vlees en vis",
   "search": {
    "jumbo": "spekreepjes",
-   "aldi": "spek"
+   "aldi": "spekreepjes"
   }
  },
  {
@@ -616,14 +616,14 @@
  },
  {
   "id": "vega-gehakt",
-  "name": "vegetarisch gehakt",
+  "name": "plantaardig gehakt",
   "unit": "g",
   "nevoCode": 2047,
   "pantry": false,
   "aisle": "vega",
   "search": {
-   "jumbo": "vegetarisch gehakt",
-   "aldi": "gehakt"
+   "jumbo": "plantaardig gehakt",
+   "aldi": "rulgehakt"
   }
  },
  {
@@ -827,7 +827,7 @@
   "pantry": false,
   "aisle": "pasta, rijst en wereld",
   "search": {
-   "jumbo": "risotto",
+   "jumbo": "risotto rijst",
    "aldi": "risotto"
   }
  },
@@ -913,7 +913,7 @@
   "aisle": "pasta, rijst en wereld",
   "search": {
    "jumbo": "currypasta",
-   "aldi": "curry"
+   "aldi": "currypasta"
   }
  },
  {
@@ -924,8 +924,8 @@
   "pantry": false,
   "aisle": "pasta, rijst en wereld",
   "search": {
-   "jumbo": "taco",
-   "aldi": "kruiden"
+   "jumbo": "taco kruidenmix",
+   "aldi": "taco kruidenmix"
   }
  },
  {

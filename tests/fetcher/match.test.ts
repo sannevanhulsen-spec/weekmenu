@@ -44,6 +44,28 @@ describe('pickProduct', () => {
     const out = pickProduct(tomaat, [p('Jumbo Tomatenblokjes 400 g', 400, 0.35), p('Jumbo Tomaten Gezeefd Passata 500 g', 500, 0.6), p('Jumbo Tomaten 500 g', 500, 1.49)]);
     expect(out?.name).toBe('Jumbo Tomaten 500 g');
   });
+  it.each([
+    ['tomaat', 'tomaten', 'Heinz Tomaten Polpa 400g'],
+    ['gember', 'gember', 'Jumbo Shot Gember, Appel & Citroen 125ML'],
+    ['appel', 'appel', 'Sinaasappelsap 1500ml'],
+    ['kipfilet', 'kipfilet', 'Krokante kipfiletreepjes 450g'],
+    ['rundergehakt', 'rundergehakt', 'Lasagne pittig rundergehakt 400g'],
+    ['mais', 'mais', 'P.A.N. Voorgekookte Gele Maïs Meel 1 kg'],
+  ])('rejects a processed product for %s', (name, term, title) => {
+    expect(pickProduct(ing({ id: name, name, unit: 'g', search: { jumbo: term } }), [p(title, 400, 1)])).toBeNull();
+  });
+  it('prefers the product name with the fewest extra words over a cheaper one', () => {
+    const kn = ing({ id: 'knoflook', name: 'knoflook', unit: 'g', search: { jumbo: 'knoflook' } });
+    expect(pickProduct(kn, [p('Remia Friteslijn Knoflook 350ML', 350, 2.25), p('Jumbo Knoflook 100 g', 100, 1.29)])?.name).toBe('Jumbo Knoflook 100 g');
+  });
+  it('rejects names with more than two extra words', () => {
+    const gember = ing({ id: 'gember', name: 'gember', unit: 'g', search: { jumbo: 'gember' } });
+    expect(pickProduct(gember, [p('GIGI Waterijsjes Sinaas Wortel Gember 6x40ml', 240, 3.99)])).toBeNull();
+  });
+  it('ignores soft hyphens in names', () => {
+    const appel = ing({ id: 'appel', name: 'appel', unit: 'g', search: { jumbo: 'appel' } });
+    expect(pickProduct(appel, [p('Perssinaas­appels 3000g', 3000, 2.99)])).toBeNull();
+  });
   it('returns null without candidates', () => {
     expect(pickProduct(ing(), [])).toBeNull();
   });
