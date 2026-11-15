@@ -78,3 +78,22 @@ describe('Suggestions', () => {
     expect(within(card('Recept saf')).getByText(/^~/)).toBeTruthy();
   });
 });
+
+describe('Nieuw weekmenu guard', () => {
+  it('asks before replacing a week that has chosen recipes, and keeps it on cancel', async () => {
+    const confirm = vi.fn().mockReturnValue(false);
+    vi.stubGlobal('confirm', confirm);
+    const { Wrapper, ref } = harness(Suggestions, makeData(), stateWithWeek({ weeks: [{ id: 'w1', startedAt: TODAY, chosen: ['kip'], swappedAway: [], checked: [], declinedHints: [] }] }));
+    render(<Wrapper />);
+    await userEvent.click(screen.getByRole('button', { name: 'Nieuw weekmenu' }));
+    expect(confirm).toHaveBeenCalled();
+    expect(ref.latest.weeks).toHaveLength(1);
+    vi.unstubAllGlobals();
+  });
+  it('does not stack empty weeks', async () => {
+    const { Wrapper, ref } = harness(Suggestions, makeData(), stateWithWeek());
+    render(<Wrapper />);
+    await userEvent.click(screen.getByRole('button', { name: 'Nieuw weekmenu' }));
+    expect(ref.latest.weeks).toHaveLength(1);
+  });
+});

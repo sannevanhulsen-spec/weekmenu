@@ -56,7 +56,7 @@ describe('Settings', () => {
     await userEvent.clear(pack);
     await userEvent.type(pack, '1000');
     await userEvent.click(within(ah).getByRole('button', { name: 'Opslaan' }));
-    expect(ref.latest.overrides.ah.kip).toEqual({ price: 4.99, packAmount: 1000, enteredAt: TODAY });
+    expect(ref.latest.overrides.ah.kip).toEqual({ price: 4.99, packAmount: 1000, packUnit: 'g', enteredAt: TODAY });
     expect(within(ah).getByText(/ingevuld op 15-11/)).toBeTruthy();
     const r = compareStores([{ ingredientId: 'kip', amount: 300 }], data.ingredients, data.prices, ref.latest.overrides, TODAY);
     expect(r.all.find((o) => o.stores.join() === 'ah')!.picks[0]).toMatchObject({ estimated: false, cost: 4.99 });

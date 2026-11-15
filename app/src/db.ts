@@ -29,11 +29,27 @@ export function exportBackup(s: AppState): string {
   return JSON.stringify({ version: 1, state: s });
 }
 
+const isObj = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+const isStrings = (v: unknown) => Array.isArray(v) && v.every((x) => typeof x === 'string');
+const isWeek = (w: unknown) => isObj(w) && typeof w.id === 'string' && typeof w.startedAt === 'string'
+  && (['chosen', 'swappedAway', 'checked', 'declinedHints'] as const).every((k) => isStrings(w[k]));
+const isOverrides = (v: unknown) => isObj(v) && Object.values(v).every((byIng) => isObj(byIng)
+  && Object.values(byIng).every((o) => isObj(o) && typeof o.price === 'number' && typeof o.packAmount === 'number' && typeof o.enteredAt === 'string'));
+
+/** Parses a backup; every field present must have the right shape, missing optional fields get defaults. */
 export function importBackup(json: string): AppState {
   try {
     const parsed = JSON.parse(json);
-    if (parsed?.version !== 1 || typeof parsed.state !== 'object' || !Array.isArray(parsed.state.weeks)) throw new Error();
-    return { ...defaultState(), ...parsed.state };
+    const s = parsed?.state;
+    const ok = parsed?.version === 1 && isObj(s) && Array.isArray(s.weeks) && s.weeks.every(isWeek)
+      && (['dislikedRecipes', 'dislikedIngredients', 'favorites'] as const).every((k) => s[k] === undefined || isStrings(s[k]))
+      && (s.filters === undefined || isObj(s.filters))
+      && (s.overrides === undefined || isOverrides(s.overrides))
+      && (s.includePantry === undefined || typeof s.includePantry === 'boolean')
+      && (s.listMode === undefined || s.listMode === 'pair' || s.listMode === 'single');
+    if (!ok) throw new Error();
+    const d = defaultState();
+    return { ...d, ...s, filters: { ...d.filters, ...(s.filters as object | undefined) } } as AppState;
   } catch {
     throw new Error('Ongeldig back-upbestand');
   }

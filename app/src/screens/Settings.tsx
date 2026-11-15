@@ -42,7 +42,7 @@ function ManualPrices({ store, data, state, update }: ScreenProps & { store: Sto
                 <PriceEditor price={own?.price ?? est?.price ?? 1} packAmount={own?.packAmount ?? (est?.packUnit === ing.unit ? est.packAmount : ing.unit === 'stuk' ? 1 : 500)} unit={ing.unit}
                   onCancel={() => setEditing(null)}
                   onSave={(price, packAmount) => {
-                    update({ ...state, overrides: { ...state.overrides, [store]: { ...state.overrides[store], [ing.id]: { price, packAmount, enteredAt: today } } } });
+                    update({ ...state, overrides: { ...state.overrides, [store]: { ...state.overrides[store], [ing.id]: { price, packAmount, packUnit: ing.unit, enteredAt: today } } } });
                     setEditing(null);
                   }} />
               )}

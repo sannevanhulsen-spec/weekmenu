@@ -1,8 +1,10 @@
 import { purchase, toProductUnits } from './pricing';
-import { STORES, type Ingredient, type PriceFile, type Product, type Recipe, type StoreId } from './types';
+import { STORES, type Ingredient, type PriceFile, type Product, type Recipe, type StoreId, type Unit } from './types';
 
 export interface ListLine { ingredientId: string; amount: number }
-export interface Overrides { [store: string]: { [ingredientId: string]: { price: number; packAmount: number; enteredAt: string } } }
+/** Own prices per store and ingredient. packUnit is the unit of packAmount (defaults to the ingredient's unit). */
+export interface Override { price: number; packAmount: number; packUnit?: Unit; enteredAt: string }
+export interface Overrides { [store: string]: { [ingredientId: string]: Override } }
 export interface Pick { ingredientId: string; store: StoreId; product: Product; packs: number; cost: number; estimated: boolean; hint?: { packs: number; cost: number } }
 export interface Option { stores: StoreId[]; total: number; picks: Pick[]; estimatedCount: number; unpricedIds: string[] }
 
@@ -16,11 +18,14 @@ export function buildList(recipes: Recipe[], ingredients: Map<string, Ingredient
   return [...sums].map(([ingredientId, amount]) => ({ ingredientId, amount }));
 }
 
-/** A real product for this store: the user's own price first, then the fetched one. */
+/** A real product for this store: the user's own price, unless the store has fetched a price for it after that price was entered. */
 export function realProduct(store: StoreId, ing: Ingredient, prices: PriceFile, overrides: Overrides): Product | undefined {
   const o = overrides[store]?.[ing.id];
-  if (o) return { store, name: ing.name, packAmount: o.packAmount, packUnit: ing.unit, price: o.price };
-  return prices.stores[store]?.products[ing.id];
+  const sp = prices.stores[store];
+  const fetched = sp?.products[ing.id];
+  const fetchedNewer = fetched && sp.fetchedAt.slice(0, 10) > o?.enteredAt!;
+  if (o && !fetchedNewer) return { store, name: ing.name, packAmount: o.packAmount, packUnit: o.packUnit ?? ing.unit, price: o.price };
+  return fetched;
 }
 
 function pickFor(store: StoreId, product: Product, line: ListLine, ing: Ingredient, today: string, estimated: boolean): Pick | null {
@@ -40,7 +45,11 @@ export function picksPerStore(line: ListLine, ing: Ingredient, prices: PriceFile
   }
   const cheapest = [...real.values()].sort((a, b) => a.cost - b.cost)[0];
   const out = new Map(real);
-  if (cheapest) for (const s of STORES) if (!out.has(s)) out.set(s, { ...cheapest, store: s, product: { ...cheapest.product, store: s }, estimated: true });
+  // An estimate copies the cheapest real price, but never that store's offer or multi-buy hint.
+  if (cheapest) {
+    const { hint: _hint, ...base } = cheapest;
+    for (const s of STORES) if (!out.has(s)) out.set(s, { ...base, store: s, product: { ...cheapest.product, store: s, offer: undefined }, estimated: true });
+  }
   return out;
 }
 

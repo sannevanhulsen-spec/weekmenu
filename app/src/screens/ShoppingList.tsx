@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { buildList, compareStores, type Option, type Pick } from '../../../shared/compare';
 import { activeOffer } from '../../../shared/pricing';
-import { STORE_NAMES, type Recipe, type StoreId } from '../../../shared/types';
+import { STORE_NAMES, type Recipe, type StoreId, type Unit } from '../../../shared/types';
 import { withWeek } from '../ctx';
 import { ddmm, euro, todayIso } from '../data';
 import { currentWeek } from '../db';
@@ -37,10 +37,10 @@ export function ShoppingList({ data, state, update }: ScreenProps) {
   const option = state.listMode === 'pair' ? bestPair : bestSingle;
   const diff = Math.round((bestSingle.total - bestPair.total) * 100) / 100;
 
-  const saveOverride = (pick: Pick, price: number, packAmount: number) => {
+  const saveOverride = (store: StoreId, ingredientId: string, price: number, packAmount: number, packUnit: Unit) => {
     update({
       ...state,
-      overrides: { ...state.overrides, [pick.store]: { ...state.overrides[pick.store], [pick.ingredientId]: { price, packAmount, enteredAt: today } } },
+      overrides: { ...state.overrides, [store]: { ...state.overrides[store], [ingredientId]: { price, packAmount, packUnit, enteredAt: today } } },
     });
     setEditing(null);
   };
@@ -105,7 +105,7 @@ export function ShoppingList({ data, state, update }: ScreenProps) {
                             <button className="rounded border px-1.5" onClick={() => update(withWeek(state, (w) => ({ ...w, declinedHints: [...w.declinedHints, p.ingredientId] })))}>Nee</button>
                           </p>
                         )}
-                        {editing === p.ingredientId && <PriceEditor price={p.product.price} packAmount={p.product.packAmount} unit={p.product.packUnit} onSave={(price, pack) => saveOverride(p, price, pack)} onCancel={() => setEditing(null)} />}
+                        {editing === p.ingredientId && <PriceEditor price={p.product.price} packAmount={p.product.packAmount} unit={p.product.packUnit} onSave={(price, pack) => saveOverride(p.store, p.ingredientId, price, pack, p.product.packUnit)} onCancel={() => setEditing(null)} />}
                       </li>
                     );
                   })}
@@ -118,8 +118,24 @@ export function ShoppingList({ data, state, update }: ScreenProps) {
 
       {option.unpricedIds.length > 0 && (
         <section className="mt-5">
-          <h2 className="text-lg font-semibold">Zonder prijs</h2>
-          <ul className="text-sm text-gray-600">{option.unpricedIds.map((id) => <li key={id}>{data.ingredients.get(id)?.name ?? id}</li>)}</ul>
+          <h3 className="text-lg font-semibold">Zonder prijs</h3>
+          <p className="text-xs text-gray-500">Vul een prijs in voor {STORE_NAMES[option.stores[0]]}.</p>
+          <ul className="text-sm text-gray-600">
+            {option.unpricedIds.map((id) => {
+              const ing = data.ingredients.get(id);
+              if (!ing) return null;
+              return (
+                <li key={id} className="border-b py-1.5">
+                  <div className="flex justify-between">
+                    <span>{ing.name}</span>
+                    <button aria-label={`Prijs invullen: ${ing.name}`} onClick={() => setEditing(id)} className="text-green-700">Prijs invullen</button>
+                  </div>
+                  {editing === id && <PriceEditor price={1} packAmount={ing.unit === 'stuk' ? 1 : 500} unit={ing.unit}
+                    onSave={(price, pack) => saveOverride(option.stores[0], id, price, pack, ing.unit)} onCancel={() => setEditing(null)} />}
+                </li>
+              );
+            })}
+          </ul>
         </section>
       )}
     </div>

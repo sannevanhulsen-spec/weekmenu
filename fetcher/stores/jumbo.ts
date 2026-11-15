@@ -31,8 +31,8 @@ export function parseOffer(label: string, period: string, today: string): Produc
   const l = label.toLowerCase().trim();
   const dates = () => parsePeriod(period, today);
   let m: RegExpMatchArray | null;
-  if ((m = l.match(/^(\d+)\s*voor\s*(\d+[,.]\d{2})$/))) return { kind: 'bundle', count: Number(m[1]), price: num(m[2]), ...dates(), label };
-  if ((m = l.match(/^voor\s*(\d+[,.]\d{2})$/))) return { kind: 'price', price: num(m[1]), ...dates(), label };
+  if ((m = l.match(/^(\d+)\s*voor\s*(\d+(?:[,.]\d{2})?)$/))) return { kind: 'bundle', count: Number(m[1]), price: num(m[2]), ...dates(), label };
+  if ((m = l.match(/^voor\s*(\d+(?:[,.]\d{2})?)$/))) return { kind: 'price', price: num(m[1]), ...dates(), label };
   if ((m = l.match(/^(\d+)\s*\+\s*(\d+)\s*gratis$/))) return { kind: 'multi', buy: Number(m[1]) + Number(m[2]), pay: Number(m[1]), ...dates(), label };
   if (/^2e\s*halve\s*prijs$/.test(l)) return { kind: 'multi', buy: 2, pay: 1.5, ...dates(), label };
   return undefined;

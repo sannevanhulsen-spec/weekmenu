@@ -76,3 +76,12 @@ describe('aldi.parse', () => {
     expect(aldi.parse('<html></html>')).toEqual([]);
   });
 });
+
+describe('fault tolerance', () => {
+  it('aldi.parse returns nothing for a page with broken data', () => {
+    expect(aldi.parse('<script id="__NEXT_DATA__" type="application/json">{"x":1,"apiData":"[[broken","y":2}</script>')).toEqual([]);
+  });
+  it('jumbo.parseOffer reads "3 voor 10" without decimals', () => {
+    expect(jumbo.parseOffer('3 voor 10', 'wo 11 t/m di 17 nov', '2026-11-15')).toMatchObject({ kind: 'bundle', count: 3, price: 10 });
+  });
+});

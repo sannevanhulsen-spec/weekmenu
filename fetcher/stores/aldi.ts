@@ -16,7 +16,12 @@ export function parse(html: string): Product[] {
   const next = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s)?.[1];
   const api = next?.match(/"apiData":"(.*?)","/s)?.[1];
   if (!api) return [];
-  const p: AldiProduct | undefined = JSON.parse(JSON.parse(`"${api}"`))?.[0]?.[1]?.res?.products?.[0];
+  let p: AldiProduct | undefined;
+  try {
+    p = JSON.parse(JSON.parse(`"${api}"`))?.[0]?.[1]?.res?.products?.[0];
+  } catch {
+    return [];
+  }
   const cp = p?.currentPrice;
   const pack = p && parsePack(p.salesUnit ?? p.shortDescription ?? '');
   if (!p || !cp?.priceValue || !pack) return [];

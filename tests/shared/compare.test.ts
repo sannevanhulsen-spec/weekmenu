@@ -98,3 +98,38 @@ describe('compareStores', () => {
     expect(r.bestPair.total).toBeLessThanOrEqual(r.bestSingle.total);
   });
 });
+
+describe('review fixes', () => {
+  const onion = new Map([['ui', ing('ui', { unit: 'stuk', gramsPerPiece: 100 })], ['spruit', ing('spruit')]]);
+
+  it('keeps the unit of an own price for a piece ingredient bought by weight', () => {
+    const overrides: Overrides = { ah: { ui: { price: 1.29, packAmount: 1000, packUnit: 'g', enteredAt: TODAY } } };
+    const r = compareStores([{ ingredientId: 'ui', amount: 12 }], onion, priceFile({}), overrides, TODAY);
+    // 12 onions = 1200 g → 2 bags of 1 kg
+    expect(r.all.find((o) => o.stores.join() === 'ah')!.picks[0]).toMatchObject({ packs: 2, cost: 2.58, estimated: false });
+  });
+
+  it('does not copy another store’s offer or multi-buy hint onto an estimate', () => {
+    const offer = { kind: 'multi' as const, buy: 2, pay: 1, validFrom: '2026-11-10', validUntil: '2026-11-16', label: '1+1 gratis' };
+    const prices = priceFile({ jumbo: { spruit: prod('jumbo', 3, { packAmount: 1000, offer }) } });
+    const r = compareStores([{ ingredientId: 'spruit', amount: 400 }], onion, prices, {}, TODAY);
+    const ah = r.all.find((o) => o.stores.join() === 'ah')!.picks[0];
+    expect(ah.estimated).toBe(true);
+    expect(ah.hint).toBeUndefined();
+    expect(ah.product.offer).toBeUndefined();
+  });
+
+  it('lets fresh fetched data replace an older own price at a fetched store', () => {
+    const prices = priceFile({ jumbo: { spruit: prod('jumbo', 2.5) } });
+    const overrides: Overrides = { jumbo: { spruit: { price: 4, packAmount: 500, packUnit: 'g', enteredAt: '2026-11-01' } } };
+    const r = compareStores([{ ingredientId: 'spruit', amount: 400 }], onion, prices, overrides, TODAY);
+    expect(r.all.find((o) => o.stores.join() === 'jumbo')!.picks[0].cost).toBe(2.5);
+  });
+
+  it('keeps an own price entered after the last fetch', () => {
+    const prices = priceFile({ jumbo: { spruit: prod('jumbo', 2.5) } });
+    const overrides: Overrides = { jumbo: { spruit: { price: 4, packAmount: 500, packUnit: 'g', enteredAt: TODAY } } };
+    const r = compareStores([{ ingredientId: 'spruit', amount: 400 }], onion, prices, overrides, TODAY);
+    expect(r.all.find((o) => o.stores.join() === 'jumbo')!.picks[0].cost).toBe(4);
+  });
+});

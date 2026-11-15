@@ -46,10 +46,14 @@ export function Suggestions(props: ScreenProps) {
   const today = todayIso();
   const week = currentWeek(state);
 
-  const startWeek = () => update({
-    ...state,
-    weeks: [...state.weeks, { id: `${today}-${state.weeks.length + 1}`, startedAt: today, chosen: [], swappedAway: [], checked: [], declinedHints: [] }],
-  });
+  const startWeek = () => {
+    if (week && !week.chosen.length) return; // the current week is still empty: keep using it
+    if (week && !window.confirm('Nieuw weekmenu beginnen? De huidige lijst en afvinkjes verdwijnen.')) return;
+    update({
+      ...state,
+      weeks: [...state.weeks, { id: `${today}-${state.weeks.length + 1}`, startedAt: today, chosen: [], swappedAway: [], checked: [], declinedHints: [] }],
+    });
+  };
 
   const open = openId ? data.recipes.find((r) => r.id === openId) : undefined;
   if (open) return <RecipeDetail {...props} recipe={open} onBack={() => setOpenId(null)} />;

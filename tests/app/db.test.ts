@@ -25,3 +25,16 @@ describe('db', () => {
     expect(() => importBackup('nonsense')).toThrow('Ongeldig back-upbestand');
   });
 });
+
+describe('importBackup validation', () => {
+  const wrap = (state: unknown) => JSON.stringify({ version: 1, state });
+  it('rejects malformed weeks, filters and overrides', () => {
+    expect(() => importBackup(wrap({ weeks: [{}] }))).toThrow('Ongeldig back-upbestand');
+    expect(() => importBackup(wrap({ weeks: [], filters: null }))).toThrow('Ongeldig back-upbestand');
+    expect(() => importBackup(wrap({ weeks: [], overrides: 'x' }))).toThrow('Ongeldig back-upbestand');
+    expect(() => importBackup(wrap({ weeks: [], dislikedRecipes: 'a' }))).toThrow('Ongeldig back-upbestand');
+  });
+  it('fills missing optional fields with defaults', () => {
+    expect(importBackup(wrap({ weeks: [] }))).toEqual(defaultState());
+  });
+});
