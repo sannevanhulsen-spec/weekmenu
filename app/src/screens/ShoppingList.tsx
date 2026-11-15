@@ -5,11 +5,11 @@ import { STORE_NAMES, type Recipe, type StoreId } from '../../../shared/types';
 import { withWeek } from '../ctx';
 import { ddmm, euro, todayIso } from '../data';
 import { currentWeek } from '../db';
+import { PriceEditor, unitLabel } from './PriceEditor';
 import type { ScreenProps } from './props';
 
 const DAY = 86_400_000;
 const endsSoon = (until: string, today: string) => (Date.parse(until) - Date.parse(today)) / DAY <= 2;
-const unitLabel = (u: string) => (u === 'stuk' ? 'st' : u);
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 
 function OptionSummary({ label, option, active, onPick, testId }: { label: string; option: Option; active: boolean; onPick: () => void; testId: string }) {
@@ -22,21 +22,6 @@ function OptionSummary({ label, option, active, onPick, testId }: { label: strin
       {option.estimatedCount > 0 && <div className="text-xs text-amber-700">{plural(option.estimatedCount, 'item geschat', 'items geschat')}</div>}
       {option.unpricedIds.length > 0 && <div className="text-xs text-gray-500">{plural(option.unpricedIds.length, 'item zonder prijs', 'items zonder prijs')}</div>}
     </button>
-  );
-}
-
-function PriceEditor({ pick, onSave, onCancel }: { pick: Pick; onSave: (price: number, packAmount: number) => void; onCancel: () => void }) {
-  const [price, setPrice] = useState(pick.product.price.toFixed(2).replace('.', ','));
-  const [pack, setPack] = useState(String(pick.product.packAmount));
-  const parse = (s: string) => Number(s.replace(',', '.'));
-  const valid = parse(price) > 0 && parse(pack) > 0;
-  return (
-    <div className="mt-1 flex flex-wrap items-end gap-2 rounded bg-gray-50 p-2 text-sm">
-      <label className="flex flex-col">Prijs<input aria-label="Prijs" inputMode="decimal" className="w-20 rounded border px-1" value={price} onChange={(e) => setPrice(e.target.value)} /></label>
-      <label className="flex flex-col">Verpakking ({unitLabel(pick.product.packUnit)})<input aria-label="Verpakking" inputMode="decimal" className="w-20 rounded border px-1" value={pack} onChange={(e) => setPack(e.target.value)} /></label>
-      <button disabled={!valid} onClick={() => onSave(parse(price), parse(pack))} className="rounded bg-green-700 px-2 py-1 text-white disabled:opacity-40">Opslaan</button>
-      <button onClick={onCancel} className="px-2 py-1 text-gray-500">Annuleer</button>
-    </div>
   );
 }
 
@@ -120,7 +105,7 @@ export function ShoppingList({ data, state, update }: ScreenProps) {
                             <button className="rounded border px-1.5" onClick={() => update(withWeek(state, (w) => ({ ...w, declinedHints: [...w.declinedHints, p.ingredientId] })))}>Nee</button>
                           </p>
                         )}
-                        {editing === p.ingredientId && <PriceEditor pick={p} onSave={(price, pack) => saveOverride(p, price, pack)} onCancel={() => setEditing(null)} />}
+                        {editing === p.ingredientId && <PriceEditor price={p.product.price} packAmount={p.product.packAmount} unit={p.product.packUnit} onSave={(price, pack) => saveOverride(p, price, pack)} onCancel={() => setEditing(null)} />}
                       </li>
                     );
                   })}
