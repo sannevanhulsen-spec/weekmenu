@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-16T13:12:06.722Z",
+ "generatedAt": "2026-11-17T13:55:59.813Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-16T13:12:06.722Z",
+   "fetchedAt": "2026-11-17T13:55:59.813Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-16T13:12:06.722Z",
+   "fetchedAt": "2026-11-17T13:55:59.813Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-16T13:12:06.722Z",
+   "fetchedAt": "2026-11-17T13:55:59.813Z",
    "stale": false,
    "products": {
     "ui": {
@@ -241,11 +241,11 @@
     },
     "gember": {
      "store": "jumbo",
-     "name": "Euroma Essential N°03 Gember",
-     "title": "Euroma Essential N°03 Gember",
-     "packAmount": 40,
+     "name": "Jumbo's Gehakte Gember 90 g",
+     "title": "Jumbo's Gehakte Gember 90 g",
+     "packAmount": 90,
      "packUnit": "g",
-     "price": 3.15
+     "price": 1.99
     },
     "rode-peper": {
      "store": "jumbo",
@@ -401,11 +401,11 @@
     },
     "vega-gehakt": {
      "store": "jumbo",
-     "name": "Jumbo Plantaardig Gehakt Rul Gegaard 400 g",
-     "title": "Jumbo Plantaardig Gehakt Rul Gegaard 400 g",
-     "packAmount": 400,
+     "name": "Jumbo Plantaardig Gehakte Stukjes Vers 300 g",
+     "title": "Jumbo Plantaardig Gehakte Stukjes Vers 300 g",
+     "packAmount": 300,
      "packUnit": "g",
-     "price": 2.99
+     "price": 3.59
     },
     "melk": {
      "store": "jumbo",
@@ -625,11 +625,11 @@
     },
     "tomatenpuree": {
      "store": "jumbo",
-     "name": "Jumbo Biologisch Tomatenpuree 140 g",
-     "title": "Jumbo Biologisch Tomatenpuree 140 g",
-     "packAmount": 140,
+     "name": "Jumbo Tomatenpuree 4 x 140 g",
+     "title": "Jumbo Tomatenpuree 4 x 140 g",
+     "packAmount": 560,
      "packUnit": "g",
-     "price": 0.69
+     "price": 2.15
     },
     "kokosmelk": {
      "store": "jumbo",
@@ -641,11 +641,11 @@
     },
     "mais": {
      "store": "jumbo",
-     "name": "Jumbo Maïskorrels 150 g",
-     "title": "Jumbo Maïskorrels 150 g",
-     "packAmount": 150,
+     "name": "Jumbo Maïskorrels 330 g",
+     "title": "Jumbo Maïskorrels 330 g",
+     "packAmount": 330,
      "packUnit": "g",
-     "price": 0.99
+     "price": 1.1
     },
     "kikkererwten": {
      "store": "jumbo",
@@ -658,18 +658,26 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-16",
-      "validUntil": "2026-11-16",
+      "validFrom": "2026-11-17",
+      "validUntil": "2026-11-17",
       "label": "3+1 gratis"
      }
     },
     "kidneybonen": {
      "store": "jumbo",
-     "name": "Jumbo Gedroogde Rode Kidneybonen 500 g",
-     "title": "Jumbo Gedroogde Rode Kidneybonen 500 g",
-     "packAmount": 500,
+     "name": "Jumbo Biologische Kidneybonen 400 g",
+     "title": "Jumbo Biologische Kidneybonen 400 g",
+     "packAmount": 400,
      "packUnit": "g",
-     "price": 2.49
+     "price": 1.15,
+     "offer": {
+      "kind": "multi",
+      "buy": 4,
+      "pay": 3,
+      "validFrom": "2026-11-17",
+      "validUntil": "2026-11-17",
+      "label": "3+1 gratis"
+     }
     },
     "zwarte-bonen": {
      "store": "jumbo",
@@ -801,8 +809,8 @@
     },
     "ketjap": {
      "store": "jumbo",
-     "name": "Jumbo Manis Ketjap 250 ml",
-     "title": "Jumbo Manis Ketjap 250 ml",
+     "name": "Jumbo Asin Ketjap 250 ml",
+     "title": "Jumbo Asin Ketjap 250 ml",
      "packAmount": 250,
      "packUnit": "ml",
      "price": 0.99
@@ -849,24 +857,16 @@
     },
     "doperwten": {
      "store": "jumbo",
-     "name": "Jumbo Doperwten 200 g",
-     "title": "Jumbo Doperwten 200 g",
-     "packAmount": 200,
+     "name": "Jumbo Doperwten 680 g",
+     "title": "Jumbo Doperwten 680 g",
+     "packAmount": 680,
      "packUnit": "g",
-     "price": 0.49,
-     "offer": {
-      "kind": "multi",
-      "buy": 4,
-      "pay": 3,
-      "validFrom": "2026-11-16",
-      "validUntil": "2026-11-16",
-      "label": "3+1 gratis"
-     }
+     "price": 0.88
     }
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-16T13:12:06.722Z",
+   "fetchedAt": "2026-11-17T13:55:59.813Z",
    "stale": false,
    "products": {
     "ui": {
@@ -903,11 +903,11 @@
     },
     "paprika": {
      "store": "aldi",
-     "name": "Rode puntpaprika's",
-     "title": "Rode puntpaprika's",
+     "name": "Rode paprika's",
+     "title": "Rode paprika's",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.99
+     "price": 1.65
     },
     "broccoli": {
      "store": "aldi",
@@ -1023,18 +1023,11 @@
     },
     "aardappelen": {
      "store": "aldi",
-     "name": "Extra grote kruimige aardappelen",
-     "title": "Extra grote kruimige aardappelen",
-     "packAmount": 3000,
+     "name": "Kruimige aardappelen",
+     "title": "Kruimige aardappelen",
+     "packAmount": 10000,
      "packUnit": "g",
-     "price": 3.49,
-     "offer": {
-      "kind": "price",
-      "price": 2.49,
-      "validFrom": "2026-11-16",
-      "validUntil": "2026-11-22",
-      "label": "van 3,49 voor 2,49"
-     }
+     "price": 4.99
     },
     "krieltjes": {
      "store": "aldi",
@@ -1151,9 +1144,9 @@
      "store": "aldi",
      "name": "Spekreepjes",
      "title": "Spekreepjes",
-     "packAmount": 200,
+     "packAmount": 380,
      "packUnit": "g",
-     "price": 2.13
+     "price": 2.99
     },
     "rookworst": {
      "store": "aldi",
@@ -1437,11 +1430,11 @@
     },
     "tonijn": {
      "store": "aldi",
-     "name": "Tonijnfilet 3-pack",
-     "title": "Tonijnfilet 3-pack",
-     "packAmount": 240,
+     "name": "Tonijn 5-pack",
+     "title": "Tonijn 5-pack",
+     "packAmount": 725,
      "packUnit": "g",
-     "price": 2.99
+     "price": 5.99
     },
     "pesto": {
      "store": "aldi",
