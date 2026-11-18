@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-17T13:55:59.813Z",
+ "generatedAt": "2026-11-18T13:31:08.196Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-17T13:55:59.813Z",
+   "fetchedAt": "2026-11-18T13:31:08.196Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-17T13:55:59.813Z",
+   "fetchedAt": "2026-11-18T13:31:08.196Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-17T13:55:59.813Z",
+   "fetchedAt": "2026-11-18T13:31:08.196Z",
    "stale": false,
    "products": {
     "ui": {
@@ -25,11 +25,11 @@
     },
     "rode-ui": {
      "store": "jumbo",
-     "name": "Jumbo Rode Uien Extra Groot 1 kg",
-     "title": "Jumbo Rode Uien Extra Groot 1 kg",
-     "packAmount": 1000,
+     "name": "Jumbo Biologische Rode Uien 500 g",
+     "title": "Jumbo Biologische Rode Uien 500 g",
+     "packAmount": 500,
      "packUnit": "g",
-     "price": 1.25
+     "price": 1.09
     },
     "knoflook": {
      "store": "jumbo",
@@ -81,11 +81,11 @@
     },
     "broccoli": {
      "store": "jumbo",
-     "name": "Jumbo Biologische Broccoli",
-     "title": "Jumbo Biologische Broccoli",
+     "name": "Jumbo Broccoli 500 g",
+     "title": "Jumbo Broccoli 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 2.59
+     "price": 1.19
     },
     "bloemkool": {
      "store": "jumbo",
@@ -125,7 +125,7 @@
      "title": "Jumbo Tomaten 500g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.99
+     "price": 1.89
     },
     "cherrytomaten": {
      "store": "jumbo",
@@ -209,11 +209,11 @@
     },
     "krieltjes": {
      "store": "jumbo",
-     "name": "Jumbo Minikrieltjes 600 g",
-     "title": "Jumbo Minikrieltjes 600 g",
-     "packAmount": 600,
+     "name": "Jumbo Minikrieltjes 450 g",
+     "title": "Jumbo Minikrieltjes 450 g",
+     "packAmount": 450,
      "packUnit": "g",
-     "price": 1.19
+     "price": 0.95
     },
     "avocado": {
      "store": "jumbo",
@@ -385,19 +385,19 @@
     },
     "tofu": {
      "store": "jumbo",
-     "name": "Jumbo Tofu Naturel 375g",
-     "title": "Jumbo Tofu Naturel 375g",
-     "packAmount": 375,
+     "name": "Vivera Zachte Tofu 550 g",
+     "title": "Vivera Zachte Tofu 550 g",
+     "packAmount": 550,
      "packUnit": "g",
-     "price": 1.4
+     "price": 1.99
     },
     "tempeh": {
      "store": "jumbo",
-     "name": "Jumbo Tempeh Naturel 395g",
-     "title": "Jumbo Tempeh Naturel 395g",
-     "packAmount": 395,
+     "name": "TGFS Tempeh Crispy 125g",
+     "title": "TGFS Tempeh Crispy 125g",
+     "packAmount": 125,
      "packUnit": "g",
-     "price": 2.29
+     "price": 4.99
     },
     "vega-gehakt": {
      "store": "jumbo",
@@ -465,11 +465,11 @@
     },
     "mozzarella": {
      "store": "jumbo",
-     "name": "Jumbo Mozzarella 220 g",
-     "title": "Jumbo Mozzarella 220 g",
-     "packAmount": 220,
+     "name": "Jumbo Mozzarella Maxi 250 g",
+     "title": "Jumbo Mozzarella Maxi 250 g",
+     "packAmount": 400,
      "packUnit": "g",
-     "price": 1.69
+     "price": 2.59
     },
     "geraspte-kaas": {
      "store": "jumbo",
@@ -589,15 +589,7 @@
      "title": "Jumbo's Verse Gnocchi 400 g",
      "packAmount": 400,
      "packUnit": "g",
-     "price": 2.99,
-     "offer": {
-      "kind": "bundle",
-      "count": 2,
-      "price": 3.99,
-      "validFrom": "2026-11-11",
-      "validUntil": "2026-11-17",
-      "label": "2 voor 3,99"
-     }
+     "price": 2.99
     },
     "taco-kruiden": {
      "store": "jumbo",
@@ -658,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-17",
-      "validUntil": "2026-11-17",
+      "validFrom": "2026-11-18",
+      "validUntil": "2026-11-18",
       "label": "3+1 gratis"
      }
     },
@@ -674,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-17",
-      "validUntil": "2026-11-17",
+      "validFrom": "2026-11-18",
+      "validUntil": "2026-11-18",
       "label": "3+1 gratis"
      }
     },
@@ -739,7 +731,7 @@
       "count": 2,
       "price": 5,
       "validFrom": "2026-01-01",
-      "validUntil": "2026-12-08",
+      "validUntil": "2026-12-15",
       "label": "2 voor 5,00"
      }
     },
@@ -861,12 +853,12 @@
      "title": "Jumbo Doperwten 680 g",
      "packAmount": 680,
      "packUnit": "g",
-     "price": 0.88
+     "price": 0.79
     }
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-17T13:55:59.813Z",
+   "fetchedAt": "2026-11-18T13:31:08.196Z",
    "stale": false,
    "products": {
     "ui": {
@@ -907,7 +899,7 @@
      "title": "Rode paprika's",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.65
+     "price": 1.79
     },
     "broccoli": {
      "store": "aldi",
@@ -1027,7 +1019,14 @@
      "title": "Kruimige aardappelen",
      "packAmount": 10000,
      "packUnit": "g",
-     "price": 4.99
+     "price": 9.98,
+     "offer": {
+      "kind": "price",
+      "price": 4.99,
+      "validFrom": "2026-11-10",
+      "validUntil": "2026-11-22",
+      "label": "van 9,98 voor 4,99"
+     }
     },
     "krieltjes": {
      "store": "aldi",
@@ -1350,11 +1349,11 @@
     },
     "gnocchi": {
      "store": "aldi",
-     "name": "Tagliatelle of gnocchi",
-     "title": "Tagliatelle of gnocchi",
-     "packAmount": 600,
+     "name": "Gnocchi",
+     "title": "Gnocchi",
+     "packAmount": 400,
      "packUnit": "g",
-     "price": 1.79
+     "price": 1.99
     },
     "cashew": {
      "store": "aldi",
