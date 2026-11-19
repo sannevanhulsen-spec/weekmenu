@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-18T13:31:08.196Z",
+ "generatedAt": "2026-11-19T13:58:41.758Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-18T13:31:08.196Z",
+   "fetchedAt": "2026-11-19T13:58:41.758Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-18T13:31:08.196Z",
+   "fetchedAt": "2026-11-19T13:58:41.758Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-18T13:31:08.196Z",
+   "fetchedAt": "2026-11-19T13:58:41.758Z",
    "stale": false,
    "products": {
     "ui": {
@@ -69,7 +69,7 @@
      "title": "Jumbo Biologische Courgette 1 Stuk",
      "packAmount": 1,
      "packUnit": "stuk",
-     "price": 1.25
+     "price": 1.29
     },
     "aubergine": {
      "store": "jumbo",
@@ -501,7 +501,7 @@
      "title": "Jumbo Spaghetti Vlugkokend 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.33
+     "price": 0.32
     },
     "penne": {
      "store": "jumbo",
@@ -517,7 +517,7 @@
      "title": "Jumbo Macaroni Vlugkokend 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.49
+     "price": 0.39
     },
     "lasagne": {
      "store": "jumbo",
@@ -597,7 +597,7 @@
      "title": "Jumbo's Taco Kruidenmix 15 g",
      "packAmount": 15,
      "packUnit": "g",
-     "price": 0.79
+     "price": 0.59
     },
     "tomatenblokjes": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-18",
-      "validUntil": "2026-11-18",
+      "validFrom": "2026-11-19",
+      "validUntil": "2026-11-19",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-18",
-      "validUntil": "2026-11-18",
+      "validFrom": "2026-11-19",
+      "validUntil": "2026-11-19",
       "label": "3+1 gratis"
      }
     },
@@ -801,8 +801,8 @@
     },
     "ketjap": {
      "store": "jumbo",
-     "name": "Jumbo Asin Ketjap 250 ml",
-     "title": "Jumbo Asin Ketjap 250 ml",
+     "name": "Jumbo Manis Ketjap 250 ml",
+     "title": "Jumbo Manis Ketjap 250 ml",
      "packAmount": 250,
      "packUnit": "ml",
      "price": 0.99
@@ -825,8 +825,8 @@
     },
     "bouillon": {
      "store": "jumbo",
-     "name": "Jumbo Runderbouillon 340ML",
-     "title": "Jumbo Runderbouillon 340ML",
+     "name": "Jumbo Kippenbouillon 340ML",
+     "title": "Jumbo Kippenbouillon 340ML",
      "packAmount": 340,
      "packUnit": "ml",
      "price": 1.79
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-18T13:31:08.196Z",
+   "fetchedAt": "2026-11-19T13:58:41.758Z",
    "stale": false,
    "products": {
     "ui": {
@@ -987,7 +987,7 @@
      "title": "Rode kool met appel",
      "packAmount": 720,
      "packUnit": "g",
-     "price": 0.26
+     "price": 0.25
     },
     "boerenkool": {
      "store": "aldi",
