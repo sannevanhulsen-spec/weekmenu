@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-19T13:58:41.758Z",
+ "generatedAt": "2026-11-20T13:40:07.685Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-19T13:58:41.758Z",
+   "fetchedAt": "2026-11-20T13:40:07.685Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-19T13:58:41.758Z",
+   "fetchedAt": "2026-11-20T13:40:07.685Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-19T13:58:41.758Z",
+   "fetchedAt": "2026-11-20T13:40:07.685Z",
    "stale": false,
    "products": {
     "ui": {
@@ -37,7 +37,7 @@
      "title": "Jumbo Knoflook 250 g",
      "packAmount": 250,
      "packUnit": "g",
-     "price": 2.59
+     "price": 2.69
     },
     "prei": {
      "store": "jumbo",
@@ -85,7 +85,7 @@
      "title": "Jumbo Broccoli 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.19
+     "price": 1.29
     },
     "bloemkool": {
      "store": "jumbo",
@@ -357,7 +357,7 @@
      "title": "Jumbo Kogelbiefstuk 1 Stuk ca. 135 g",
      "packAmount": 135,
      "packUnit": "g",
-     "price": 4.93
+     "price": 4.99
     },
     "zalm": {
      "store": "jumbo",
@@ -581,7 +581,7 @@
      "title": "Knorr Wraps Tomaten 6 stuks",
      "packAmount": 240,
      "packUnit": "g",
-     "price": 2.99
+     "price": 2.89
     },
     "gnocchi": {
      "store": "jumbo",
@@ -605,7 +605,7 @@
      "title": "Jumbo Tomatenblokjes 400 g",
      "packAmount": 400,
      "packUnit": "g",
-     "price": 0.35
+     "price": 0.33
     },
     "passata": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-19",
-      "validUntil": "2026-11-19",
+      "validFrom": "2026-11-20",
+      "validUntil": "2026-11-20",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-19",
-      "validUntil": "2026-11-19",
+      "validFrom": "2026-11-20",
+      "validUntil": "2026-11-20",
       "label": "3+1 gratis"
      }
     },
@@ -825,8 +825,8 @@
     },
     "bouillon": {
      "store": "jumbo",
-     "name": "Jumbo Kippenbouillon 340ML",
-     "title": "Jumbo Kippenbouillon 340ML",
+     "name": "Jumbo Runderbouillon 340ML",
+     "title": "Jumbo Runderbouillon 340ML",
      "packAmount": 340,
      "packUnit": "ml",
      "price": 1.79
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-19T13:58:41.758Z",
+   "fetchedAt": "2026-11-20T13:40:07.685Z",
    "stale": false,
    "products": {
     "ui": {
@@ -943,11 +943,11 @@
     },
     "tomaat": {
      "store": "aldi",
-     "name": "Nederlandse romatomaten",
-     "title": "Nederlandse romatomaten",
-     "packAmount": 750,
+     "name": "Cherrytomaten",
+     "title": "Cherrytomaten",
+     "packAmount": 250,
      "packUnit": "g",
-     "price": 2.69
+     "price": 0.92
     },
     "cherrytomaten": {
      "store": "aldi",
@@ -987,7 +987,7 @@
      "title": "Rode kool met appel",
      "packAmount": 720,
      "packUnit": "g",
-     "price": 0.25
+     "price": 0.29
     },
     "boerenkool": {
      "store": "aldi",
@@ -1289,7 +1289,7 @@
      "title": "Penne",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.65
+     "price": 0.63
     },
     "macaroni": {
      "store": "aldi",
@@ -1313,7 +1313,7 @@
      "title": "Zilvervliesrijst",
      "packAmount": 1000,
      "packUnit": "g",
-     "price": 0.97
+     "price": 0.94
     },
     "risottorijst": {
      "store": "aldi",
