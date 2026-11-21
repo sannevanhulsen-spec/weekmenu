@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-20T13:40:07.685Z",
+ "generatedAt": "2026-11-21T13:06:17.461Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-20T13:40:07.685Z",
+   "fetchedAt": "2026-11-21T13:06:17.461Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-20T13:40:07.685Z",
+   "fetchedAt": "2026-11-21T13:06:17.461Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-20T13:40:07.685Z",
+   "fetchedAt": "2026-11-21T13:06:17.461Z",
    "stale": false,
    "products": {
     "ui": {
@@ -21,7 +21,7 @@
      "title": "Jumbo Gele Uien Extra Groot 2 kg",
      "packAmount": 2000,
      "packUnit": "g",
-     "price": 1.99
+     "price": 1.89
     },
     "rode-ui": {
      "store": "jumbo",
@@ -365,7 +365,7 @@
      "title": "Jumbo Wilde Zalmfilet 2 x 125 g",
      "packAmount": 250,
      "packUnit": "g",
-     "price": 3.19
+     "price": 3.39
     },
     "kabeljauw": {
      "store": "jumbo",
@@ -581,7 +581,7 @@
      "title": "Knorr Wraps Tomaten 6 stuks",
      "packAmount": 240,
      "packUnit": "g",
-     "price": 2.89
+     "price": 2.99
     },
     "gnocchi": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-20",
-      "validUntil": "2026-11-20",
+      "validFrom": "2026-11-21",
+      "validUntil": "2026-11-21",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-20",
-      "validUntil": "2026-11-20",
+      "validFrom": "2026-11-21",
+      "validUntil": "2026-11-21",
       "label": "3+1 gratis"
      }
     },
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-20T13:40:07.685Z",
+   "fetchedAt": "2026-11-21T13:06:17.461Z",
    "stale": false,
    "products": {
     "ui": {
