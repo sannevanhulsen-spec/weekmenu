@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-22T12:54:39.475Z",
+ "generatedAt": "2026-11-23T15:27:34.087Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-22T12:54:39.475Z",
+   "fetchedAt": "2026-11-23T15:27:34.087Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-22T12:54:39.475Z",
+   "fetchedAt": "2026-11-23T15:27:34.087Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-22T12:54:39.475Z",
+   "fetchedAt": "2026-11-23T15:27:34.087Z",
    "stale": false,
    "products": {
     "ui": {
@@ -85,7 +85,7 @@
      "title": "Jumbo Broccoli 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.29
+     "price": 1.19
     },
     "bloemkool": {
      "store": "jumbo",
@@ -237,7 +237,7 @@
      "title": "Jumbo Limoenen 3 Stuks",
      "packAmount": 3,
      "packUnit": "stuk",
-     "price": 1.19
+     "price": 0.99
     },
     "gember": {
      "store": "jumbo",
@@ -333,7 +333,7 @@
      "title": "Jumbo Varkenshaas ca. 310 g",
      "packAmount": 310,
      "packUnit": "g",
-     "price": 5.11
+     "price": 4.65
     },
     "spekreepjes": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-22",
-      "validUntil": "2026-11-22",
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-23",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-22",
-      "validUntil": "2026-11-22",
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-23",
       "label": "3+1 gratis"
      }
     },
@@ -789,7 +789,7 @@
      "title": "Jumbo Witte Natuurazijn 1,5L",
      "packAmount": 1500,
      "packUnit": "ml",
-     "price": 0.98
+     "price": 0.85
     },
     "sojasaus": {
      "store": "jumbo",
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-22T12:54:39.475Z",
+   "fetchedAt": "2026-11-23T15:27:34.087Z",
    "stale": false,
    "products": {
     "ui": {
@@ -939,7 +939,7 @@
      "title": "Champignonschijfjes",
      "packAmount": 314,
      "packUnit": "ml",
-     "price": 0.97
+     "price": 0.99
     },
     "tomaat": {
      "store": "aldi",
@@ -995,7 +995,14 @@
      "title": "Boerenkool",
      "packAmount": 450,
      "packUnit": "g",
-     "price": 0.99
+     "price": 0.99,
+     "offer": {
+      "kind": "price",
+      "price": 0.79,
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-29",
+      "label": "van 0,99 voor 0,79"
+     }
     },
     "andijvie": {
      "store": "aldi",
@@ -1023,8 +1030,8 @@
      "offer": {
       "kind": "price",
       "price": 4.99,
-      "validFrom": "2026-11-10",
-      "validUntil": "2026-11-22",
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-29",
       "label": "van 9,98 voor 4,99"
      }
     },
@@ -1034,14 +1041,7 @@
      "title": "Mini krieltjes",
      "packAmount": 700,
      "packUnit": "g",
-     "price": 1.29,
-     "offer": {
-      "kind": "price",
-      "price": 0.99,
-      "validFrom": "2026-11-16",
-      "validUntil": "2026-11-22",
-      "label": "van 1,29 voor 0,99"
-     }
+     "price": 1.29
     },
     "avocado": {
      "store": "aldi",
@@ -1081,7 +1081,14 @@
      "title": "Bosui",
      "packAmount": 120,
      "packUnit": "g",
-     "price": 0.89
+     "price": 0.89,
+     "offer": {
+      "kind": "price",
+      "price": 0.59,
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-29",
+      "label": "van 0,89 voor 0,59"
+     }
     },
     "koriander": {
      "store": "aldi",
@@ -1233,7 +1240,7 @@
      "title": "Roomboter",
      "packAmount": 250,
      "packUnit": "g",
-     "price": 0.99
+     "price": 0.98
     },
     "ei": {
      "store": "aldi",
@@ -1281,7 +1288,7 @@
      "title": "Spaghetti",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.39
+     "price": 0.35
     },
     "penne": {
      "store": "aldi",
@@ -1553,7 +1560,7 @@
      "title": "Doperwten",
      "packAmount": 370,
      "packUnit": "ml",
-     "price": 0.4
+     "price": 0.37
     }
    }
   }
