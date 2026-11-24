@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-23T15:27:34.087Z",
+ "generatedAt": "2026-11-24T15:22:54.373Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-23T15:27:34.087Z",
+   "fetchedAt": "2026-11-24T15:22:54.373Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-23T15:27:34.087Z",
+   "fetchedAt": "2026-11-24T15:22:54.373Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-23T15:27:34.087Z",
+   "fetchedAt": "2026-11-24T15:22:54.373Z",
    "stale": false,
    "products": {
     "ui": {
@@ -21,7 +21,7 @@
      "title": "Jumbo Gele Uien Extra Groot 2 kg",
      "packAmount": 2000,
      "packUnit": "g",
-     "price": 1.89
+     "price": 1.75
     },
     "rode-ui": {
      "store": "jumbo",
@@ -325,7 +325,7 @@
      "title": "Jumbo Rundergehakt 1 Kg",
      "packAmount": 1000,
      "packUnit": "g",
-     "price": 10.49
+     "price": 10.45
     },
     "varkenshaas": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-23",
-      "validUntil": "2026-11-23",
+      "validFrom": "2026-11-24",
+      "validUntil": "2026-11-24",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-23",
-      "validUntil": "2026-11-23",
+      "validFrom": "2026-11-24",
+      "validUntil": "2026-11-24",
       "label": "3+1 gratis"
      }
     },
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-23T15:27:34.087Z",
+   "fetchedAt": "2026-11-24T15:22:54.373Z",
    "stale": false,
    "products": {
     "ui": {
@@ -1010,7 +1010,7 @@
      "title": "Gesneden andijvie",
      "packAmount": 400,
      "packUnit": "g",
-     "price": 1.69
+     "price": 1.65
     },
     "zoete-aardappel": {
      "store": "aldi",
@@ -1222,9 +1222,9 @@
      "store": "aldi",
      "name": "Kookroom",
      "title": "Kookroom",
-     "packAmount": 250,
-     "packUnit": "ml",
-     "price": 0.98
+     "packAmount": 200,
+     "packUnit": "g",
+     "price": 0.69
     },
     "creme-fraiche": {
      "store": "aldi",
@@ -1398,9 +1398,9 @@
      "store": "aldi",
      "name": "Kokosmelk",
      "title": "Kokosmelk",
-     "packAmount": 200,
+     "packAmount": 400,
      "packUnit": "ml",
-     "price": 1.29
+     "price": 1.89
     },
     "mais": {
      "store": "aldi",
