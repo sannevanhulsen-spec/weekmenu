@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-25T15:03:50.793Z",
+ "generatedAt": "2026-11-26T14:33:28.955Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-25T15:03:50.793Z",
+   "fetchedAt": "2026-11-26T14:33:28.955Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-25T15:03:50.793Z",
+   "fetchedAt": "2026-11-26T14:33:28.955Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-25T15:03:50.793Z",
+   "fetchedAt": "2026-11-26T14:33:28.955Z",
    "stale": false,
    "products": {
     "ui": {
@@ -213,7 +213,7 @@
      "title": "Jumbo Minikrieltjes 600 g",
      "packAmount": 600,
      "packUnit": "g",
-     "price": 1.19
+     "price": 1.25
     },
     "avocado": {
      "store": "jumbo",
@@ -229,7 +229,7 @@
      "title": "Jumbo Citroenen 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 1.59
+     "price": 1.65
     },
     "limoen": {
      "store": "jumbo",
@@ -269,7 +269,7 @@
      "title": "Jumbo Basilicum 25 g",
      "packAmount": 25,
      "packUnit": "g",
-     "price": 1.29
+     "price": 1.35
     },
     "peterselie": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-25",
-      "validUntil": "2026-11-25",
+      "validFrom": "2026-11-26",
+      "validUntil": "2026-11-26",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-25",
-      "validUntil": "2026-11-25",
+      "validFrom": "2026-11-26",
+      "validUntil": "2026-11-26",
       "label": "3+1 gratis"
      }
     },
@@ -785,11 +785,11 @@
     },
     "azijn": {
      "store": "jumbo",
-     "name": "Jumbo Witte Natuurazijn 1,5L",
-     "title": "Jumbo Witte Natuurazijn 1,5L",
-     "packAmount": 1500,
+     "name": "Jumbo Witte Natuurazijn 6 x 1,5L",
+     "title": "Jumbo Witte Natuurazijn 6 x 1,5L",
+     "packAmount": 9000,
      "packUnit": "ml",
-     "price": 0.85
+     "price": 5.09
     },
     "sojasaus": {
      "store": "jumbo",
@@ -801,8 +801,8 @@
     },
     "ketjap": {
      "store": "jumbo",
-     "name": "Jumbo Manis Ketjap 250 ml",
-     "title": "Jumbo Manis Ketjap 250 ml",
+     "name": "Jumbo Asin Ketjap 250 ml",
+     "title": "Jumbo Asin Ketjap 250 ml",
      "packAmount": 250,
      "packUnit": "ml",
      "price": 0.99
@@ -813,7 +813,7 @@
      "title": "Jumbo Sambal Oelek 280 g",
      "packAmount": 280,
      "packUnit": "g",
-     "price": 0.95
+     "price": 1.09
     },
     "mosterd": {
      "store": "jumbo",
@@ -845,7 +845,7 @@
      "title": "Jumbo - Pita Broodjes - 10 Stuks",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.79
+     "price": 0.75
     },
     "doperwten": {
      "store": "jumbo",
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-25T15:03:50.793Z",
+   "fetchedAt": "2026-11-26T14:33:28.955Z",
    "stale": false,
    "products": {
     "ui": {
@@ -1156,11 +1156,18 @@
     },
     "rookworst": {
      "store": "aldi",
-     "name": "Scharrelkiprookworst",
-     "title": "Scharrelkiprookworst",
-     "packAmount": 270,
+     "name": "Slagersrookworst",
+     "title": "Slagersrookworst",
+     "packAmount": 275,
      "packUnit": "g",
-     "price": 1.99
+     "price": 2.69,
+     "offer": {
+      "kind": "price",
+      "price": 1.99,
+      "validFrom": "2026-11-23",
+      "validUntil": "2026-11-29",
+      "label": "van 2,69 voor 1,99"
+     }
     },
     "biefstuk": {
      "store": "aldi",
