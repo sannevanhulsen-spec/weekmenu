@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-26T14:33:28.955Z",
+ "generatedAt": "2026-11-27T14:27:54.315Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-26T14:33:28.955Z",
+   "fetchedAt": "2026-11-27T14:27:54.315Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-26T14:33:28.955Z",
+   "fetchedAt": "2026-11-27T14:27:54.315Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-26T14:33:28.955Z",
+   "fetchedAt": "2026-11-27T14:27:54.315Z",
    "stale": false,
    "products": {
     "ui": {
@@ -177,11 +177,11 @@
     },
     "boerenkool": {
      "store": "jumbo",
-     "name": "Jumbo Boerenkool Voordeelverpakking 750 g",
-     "title": "Jumbo Boerenkool Voordeelverpakking 750 g",
-     "packAmount": 750,
+     "name": "Jumbo Boerenkool 450 g",
+     "title": "Jumbo Boerenkool 450 g",
+     "packAmount": 450,
      "packUnit": "g",
-     "price": 1.59
+     "price": 1.09
     },
     "andijvie": {
      "store": "jumbo",
@@ -513,11 +513,11 @@
     },
     "macaroni": {
      "store": "jumbo",
-     "name": "Jumbo Macaroni Vlugkokend 500 g",
-     "title": "Jumbo Macaroni Vlugkokend 500 g",
+     "name": "Jumbo's Macaroni 500 g",
+     "title": "Jumbo's Macaroni 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.39
+     "price": 0.99
     },
     "lasagne": {
      "store": "jumbo",
@@ -581,7 +581,7 @@
      "title": "Knorr Wraps Tomaten 6 stuks",
      "packAmount": 240,
      "packUnit": "g",
-     "price": 2.99
+     "price": 2.89
     },
     "gnocchi": {
      "store": "jumbo",
@@ -650,8 +650,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-26",
-      "validUntil": "2026-11-26",
+      "validFrom": "2026-11-27",
+      "validUntil": "2026-11-27",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +666,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-26",
-      "validUntil": "2026-11-26",
+      "validFrom": "2026-11-27",
+      "validUntil": "2026-11-27",
       "label": "3+1 gratis"
      }
     },
@@ -801,8 +801,8 @@
     },
     "ketjap": {
      "store": "jumbo",
-     "name": "Jumbo Asin Ketjap 250 ml",
-     "title": "Jumbo Asin Ketjap 250 ml",
+     "name": "Jumbo Manis Ketjap 250 ml",
+     "title": "Jumbo Manis Ketjap 250 ml",
      "packAmount": 250,
      "packUnit": "ml",
      "price": 0.99
@@ -858,7 +858,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-26T14:33:28.955Z",
+   "fetchedAt": "2026-11-27T14:27:54.315Z",
    "stale": false,
    "products": {
     "ui": {
