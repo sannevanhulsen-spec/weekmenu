@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-27T14:27:54.315Z",
+ "generatedAt": "2026-11-28T13:44:38.755Z",
  "stores": {
   "ah": {
-   "fetchedAt": "2026-11-27T14:27:54.315Z",
+   "fetchedAt": "2026-11-28T13:44:38.755Z",
    "stale": false,
    "products": {}
   },
   "lidl": {
-   "fetchedAt": "2026-11-27T14:27:54.315Z",
+   "fetchedAt": "2026-11-28T13:44:38.755Z",
    "stale": false,
    "products": {}
   },
   "jumbo": {
-   "fetchedAt": "2026-11-27T14:27:54.315Z",
+   "fetchedAt": "2026-11-28T13:44:38.755Z",
    "stale": false,
    "products": {
     "ui": {
@@ -177,11 +177,11 @@
     },
     "boerenkool": {
      "store": "jumbo",
-     "name": "Jumbo Boerenkool 450 g",
-     "title": "Jumbo Boerenkool 450 g",
-     "packAmount": 450,
+     "name": "Jumbo Boerenkool Voordeelverpakking 750 g",
+     "title": "Jumbo Boerenkool Voordeelverpakking 750 g",
+     "packAmount": 750,
      "packUnit": "g",
-     "price": 1.09
+     "price": 1.59
     },
     "andijvie": {
      "store": "jumbo",
@@ -201,11 +201,19 @@
     },
     "aardappelen": {
      "store": "jumbo",
-     "name": "Jumbo Aardappelen Kruimig Extra Groot 3 kg",
-     "title": "Jumbo Aardappelen Kruimig Extra Groot 3 kg",
+     "name": "Jumbo Aardappelen Vastkokend 3 kg",
+     "title": "Jumbo Aardappelen Vastkokend 3 kg",
      "packAmount": 3000,
      "packUnit": "g",
-     "price": 3.99
+     "price": 3.85,
+     "offer": {
+      "kind": "multi",
+      "buy": 2,
+      "pay": 1,
+      "validFrom": "2026-11-25",
+      "validUntil": "2026-12-01",
+      "label": "1+1 gratis"
+     }
     },
     "krieltjes": {
      "store": "jumbo",
@@ -277,7 +285,7 @@
      "title": "Jumbo Peterselie 50 g",
      "packAmount": 50,
      "packUnit": "g",
-     "price": 1.29
+     "price": 1.35
     },
     "appel": {
      "store": "jumbo",
@@ -513,11 +521,11 @@
     },
     "macaroni": {
      "store": "jumbo",
-     "name": "Jumbo's Macaroni 500 g",
-     "title": "Jumbo's Macaroni 500 g",
+     "name": "Jumbo Macaroni Vlugkokend 500 g",
+     "title": "Jumbo Macaroni Vlugkokend 500 g",
      "packAmount": 500,
      "packUnit": "g",
-     "price": 0.99
+     "price": 0.39
     },
     "lasagne": {
      "store": "jumbo",
@@ -650,8 +658,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-27",
-      "validUntil": "2026-11-27",
+      "validFrom": "2026-11-28",
+      "validUntil": "2026-11-28",
       "label": "3+1 gratis"
      }
     },
@@ -666,8 +674,8 @@
       "kind": "multi",
       "buy": 4,
       "pay": 3,
-      "validFrom": "2026-11-27",
-      "validUntil": "2026-11-27",
+      "validFrom": "2026-11-28",
+      "validUntil": "2026-11-28",
       "label": "3+1 gratis"
      }
     },
@@ -858,7 +866,7 @@
    }
   },
   "aldi": {
-   "fetchedAt": "2026-11-27T14:27:54.315Z",
+   "fetchedAt": "2026-11-28T13:44:38.755Z",
    "stale": false,
    "products": {
     "ui": {
